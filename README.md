@@ -10,3 +10,4 @@
 - [Online Tools](https://github.com/seljabali/notes_to_self/wiki/Online-Tools)
 - [Services](https://github.com/seljabali/notes_to_self/wiki/Services)
 - [Technologies](https://github.com/seljabali/notes_to_self/wiki/Technologies)
+- [Web](https://github.com/seljabali/notes_to_self/wiki/Web)

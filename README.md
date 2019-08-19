@@ -6,6 +6,7 @@
 - [Coding Style Guides](https://github.com/seljabali/notes_to_self/wiki/Coding-Style-Guides)
 - [Commands](https://github.com/seljabali/notes_to_self/wiki/Commands)
 - [Companies](https://github.com/seljabali/notes_to_self/wiki/Companies)
+- [Design](https://github.com/seljabali/notes_to_self/wiki/Design)
 - [General Coding Style](https://github.com/seljabali/notes_to_self/wiki/General-Coding-Style-Guide)
 - [iOS](https://github.com/seljabali/notes_to_self/wiki/iOS)
 - [Ktor](https://github.com/seljabali/notes_to_self/wiki/Ktor)

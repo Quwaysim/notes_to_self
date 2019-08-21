@@ -9,6 +9,7 @@
 - [Design](https://github.com/seljabali/notes_to_self/wiki/Design)
 - [General Coding Style](https://github.com/seljabali/notes_to_self/wiki/General-Coding-Style-Guide)
 - [iOS](https://github.com/seljabali/notes_to_self/wiki/iOS)
+- [Kotlin](https://github.com/seljabali/notes_to_self/wiki/Kotlin)
 - [Ktor](https://github.com/seljabali/notes_to_self/wiki/Ktor)
 - [Java Coding Style](https://github.com/seljabali/notes_to_self/wiki/Java-Coding-Style-Guide)
 - [Online Tools](https://github.com/seljabali/notes_to_self/wiki/Online-Tools)

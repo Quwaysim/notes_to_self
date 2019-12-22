@@ -46,6 +46,8 @@ http://www.getcreditcardnumbers.com
 
 - [The Noun Project](https://thenounproject.com): Icons for everything
 
+- [Brand logos](https://simpleicons.org)
+
 - [No Shit](https://noshit.xyz/): Free Resources
 
 - [Makerbook](http://makerbook.net): Free Resources

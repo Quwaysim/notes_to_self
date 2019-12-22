@@ -6,12 +6,16 @@
 - [OS Versions](https://source.android.com/setup/start/build-numbers)
 - [Support Library Revision Archive](https://developer.android.com/topic/libraries/support-library/rev-archive#rev23-4-0)
 - [Support Libraries #2](https://developer.android.com/topic/libraries/support-library/packages)
+- [Android Support Revisions](https://developer.android.com/topic/libraries/support-library/revisions.html)
 
 ## Learning Resources
 - [Google Tutorials](https://codelabs.developers.google.com)
 - [Google Architecture](https://github.com/googlesamples/android-architecture/tree/todo-mvp-clean/)
 - [Android Guides](https://github.com/codepath/android_guides): Open-Source Guides
 - [Android for iOS Devs](https://akos.ma/books/Android_for_iOS_Devs/Android_for_iOS_Devs_Kotlin_Ed_2018.html)
+- [Android Cliffnotes](https://github.com/codepath/android_guides/wiki#getting-started)
+- [Android Podcasts/Blogs](https://github.com/codepath/android_guides/wiki/Keeping-Updated-with-Android)
+- [Dan Lew Codes](http://blog.danlew.net)
 
 ## Interview Questions
 - [Babylon Health Playbook](https://github.com/babylonhealth/android-playbook)
@@ -68,8 +72,12 @@
 - [Dagger 2 by JW](https://www.youtube.com/watch?v=plK0zyRLIP8)
 - [Moar Dagger](https://proandroiddev.com/exploring-the-new-dagger-android-module-9eb6075f1a46)
 
+## Retrofit
+[Retrofit](https://futurestud.io/tutorials/retrofit-getting-started-and-android-client)
+
 ## Rx
 - [Rx Click Recycler](https://stackoverflow.com/questions/44433115/recyclerview-item-click-using-rxjava2-rxbinding-not-working-after-fragment-rep/44840296)
+- [RxJava Android Samples](https://github.com/kaushikgopal/RxJava-Android-Samples)
 
 ## Koin
 - [Exploring Koin in Android and Kotlin](http://mobologicplus.com/exploring-koin-dependency-injection-in-android-and-kotlin/)
@@ -82,6 +90,7 @@
 
 ## Publishing Libraries
 - [Publish Library to Maven](https://medium.com/@jinatonic/publishing-android-libraries-to-maven-f91947c3e77b)
+- [Publish Maven library](https://medium.com/@scottyab/how-to-publish-your-open-source-library-to-maven-central-5178d9579c5)
 
 ## Android Studio
 - [LogCat](https://stackoverflow.com/questions/39993867/android-studio-logcat-colors-best-practice/39993868)
@@ -96,6 +105,7 @@
 
 ## Gradle 
 - [Gradle Books](https://gradle.org/books/)
+- [Gradle Versions](https://developer.android.com/studio/releases/gradle-plugin.html)
 
 ## Parsing
 - [Univocity Parsers](https://www.univocity.com/pages/univocity_parsers_tutorial)

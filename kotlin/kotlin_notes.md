@@ -46,3 +46,15 @@ class Foo(val bar: String) {
   }
 }
 ```
+
+### Generics
+Invariant:
+Generic types in Java are invariant, meaning that List<String> is not a subtype of List<Object>.
+```java
+List<String> strs = new ArrayList<String>();
+List<Object> objs = strs; // !!! The cause of the upcoming problem sits here. Java prohibits this!
+objs.add(1); // Here we put an Integer into a list of Strings
+String s = strs.get(0); // !!! ClassCastException: Cannot cast Integer to String
+```
+Covariant:
+

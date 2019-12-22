@@ -1,0 +1,54 @@
+### Update default editor:
+
+```java
+git config --global core.editor emacs
+git config --global core.editor /usr/local/bin/emacs
+```
+
+### See staged for commit changes
+```java
+git diff --cached origin/master
+```
+➜ git pull
+There is no tracking information for the current branch. Please specify which branch you want to merge with.
+```java
+git branch --set-upstream-to=origin/<branch_name> <branch_name>
+```
+git against head
+```java
+git push origin HEAD:chore/collaborators_view --force
+```
+### Apply .gitignore to project
+```java
+git rm -r --cached .
+git add .
+git commit -m ".gitignore is now working"
+```
+### clean up remote branches
+```java
+git fetch --all --prune
+```
+
+### revert back to certain commit
+```java
+git reset 56e05fced 
+
+# Moves pointer back to previous HEAD
+git reset --soft HEAD@{1}
+
+git commit -m "Revert to 56e05fced"
+
+# Updates working copy to reflect the new commit
+git reset --hard
+```
+
+### Move repo A to B
+```java
+cd B
+git checkout master
+git remote add A **url-of-repoA**
+git fetch A
+git merge A/master --allow-unrelated-histories
+git push origin HEAD
+git remote rm A
+```

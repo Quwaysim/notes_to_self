@@ -76,6 +76,12 @@ Data
 =====
 bag of bits object <br>
 
+Error
+=====
+```swift
+fatalError("new run time error")
+```
+
 Guard:
 ======
 ```swift

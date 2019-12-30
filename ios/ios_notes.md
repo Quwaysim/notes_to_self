@@ -296,3 +296,14 @@ My reasons are following:
 - Weak reusability of views and view controller (but you have there aliases, so it’s not so bad)
 - I could write about it even more.
 - Difficult debugging of constraints.
+
+Determine Build Type
+==========
+Info.plist file:
+```
+<key>Configuration</key>
+<string>${CONFIGURATION}</string>
+```
+```swift
+var config = Bundle.main.infoDictionary?["Configuration"] as? String ?? ""
+```

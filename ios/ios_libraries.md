@@ -243,6 +243,7 @@
   - [FSCalendar](https://github.com/WenchaoD/FSCalendar)
   - [DZN Empty Data Set](https://github.com/dzenbot/DZNEmptyDataSet): Easy way to provide empty data set
   - [Charts](https://github.com/danielgindi/Charts) ✅
+  - [ChartView](https://github.com/AppPear/ChartView)
   - [Image Viewer](https://github.com/Krisiacik/ImageViewer): Easy way to view images gallery mode
   - [YN Drop Down Menu](https://github.com/younatics/YNDropDownMenu)
   - [TC Picker View](https://github.com/ChernyshenkoTaras/TCPickerView): Modal to pick things 

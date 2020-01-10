@@ -2,6 +2,7 @@
 - [Design](https://developer.apple.com/design/)
 - [Change Bundle](https://stackoverflow.com/questions/31786155/i-want-to-change-my-bundle-identifier-as-well-as-product-name-in-xcode-6-3)
 - [App Store Listings Dimensions](https://help.apple.com/app-store-connect/#/devd274dd925)
+- [Phone/OS Support](https://support.apple.com/en-gb/guide/iphone/iphe3fa5df43/ios)
 
 ## Learning Resources
 - [Paul Hudson](https://www.hackingwithswift.com/quick-start/swiftui): Swift UI

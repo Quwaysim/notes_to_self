@@ -25,11 +25,15 @@ var config = Bundle.main.infoDictionary?["Configuration"] as? String ?? ""
 
 Carthage
 =========
+```
 carthage update --platform iOS
 carthage build --platform iOS
 carthage update --platform iOS --no-use-binaries
+```
 
 CocoaPods
 ==========
+```
 pod install
 pod update
+```

@@ -59,3 +59,6 @@
 ## Theming
 - [UI Appearance Tutorial](https://www.raywenderlich.com/1625-uiappearance-tutorial-getting-started)
 - [Dark Mode](https://medium.com/@arradimohamed/wwdc-2019-supporting-dark-mode-on-ios-13-tutorial-3e159019bf46)
+
+## UI
+- [Move view when keyboard is shown](https://fluffy.es/move-view-when-keyboard-is-shown/)

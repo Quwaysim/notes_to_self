@@ -28,7 +28,7 @@ https://download.cnet.com/FFView/3000-18488_4-50312.html
 - [XCode](https://apps.apple.com/us/app/xcode/id497799835?mt=12)
   - [Manual Download](https://developer.apple.com/download/more/)
   - [QuickType](https://github.com/quicktype/quicktype-xcode): Auto-generate Json parsing code
-- [AppCode](https://www.jetbrains.com/objc/): A smarter IDE for iOS/macOS development
+- [AppCode](https://www.jetbrains.com/objc/): A smarter IDE for iOS/macOS development 
 - [Visual Studio](https://code.visualstudio.com): Good for web development.
 
 
@@ -54,7 +54,7 @@ https://download.cnet.com/FFView/3000-18488_4-50312.html
 
 - [Duplicate Photos Fixer Pro](https://apps.apple.com/us/app/duplicate-photos-fixer-pro/id963642514?mt=12)
 
-- [Duplicate File Finder Remover](https://apps.apple.com/us/app/duplicate-file-finder-remover/id1032755628?mt=12)
+- [Duplicate File Finder Remover](https://apps.apple.com/us/app/duplicate-file-finder-remover/id1032755628?mt=12) ✅
 
 - [Sensible](https://sensible-side-buttons.archagon.net): Support Back/Forward buttons on mice
 
@@ -75,7 +75,7 @@ https://download.cnet.com/FFView/3000-18488_4-50312.html
 
 - [Gimp](https://www.gimp.org)
 
-- [PaintBrush](https://paintbrush.sourceforge.io)
+- [PaintBrush](https://paintbrush.sourceforge.io) 
 
 - [Seashore](https://itunes.apple.com/us/app/seashore/id1448648921?mt=12)
 

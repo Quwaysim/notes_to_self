@@ -52,6 +52,10 @@ https://download.cnet.com/FFView/3000-18488_4-50312.html
 
 - [Similar Photos Cleaner](https://itunes.apple.com/us/app/similar-photos-cleaner/id1333523703): Duplicate photo cleaner tool for your Mac.
 
+- [Duplicate Photos Fixer Pro](https://apps.apple.com/us/app/duplicate-photos-fixer-pro/id963642514?mt=12)
+
+- [Duplicate File Finder Remover](https://apps.apple.com/us/app/duplicate-file-finder-remover/id1032755628?mt=12)
+
 - [Sensible](https://sensible-side-buttons.archagon.net): Support Back/Forward buttons on mice
 
 ## Text Editors

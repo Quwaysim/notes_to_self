@@ -118,6 +118,7 @@
 
 - Image Picker:
   - [TLPhotoPicker](https://github.com/tilltue/TLPhotoPicker)
+  - [YPImagePicker](https://github.com/Yummypets/YPImagePicker)
 
 - Injection:
   - [Swinject](https://github.com/Swinject/Swinject)

@@ -188,6 +188,7 @@
   - [RxSwift](https://github.com/ReactiveX/RxSwift) ✅ 
   - [RxGesture](https://github.com/RxSwiftCommunity/RxGesture): Rx UIView events
   - [RxSwiftExt](https://github.com/RxSwiftCommunity/RxSwiftExt): Rx Extensions + operators
+  - [Action](https://github.com/RxSwiftCommunity/Action): Abstracts actions to be performed in RxSwift.
 
 - Security:
   - [CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift)
@@ -205,6 +206,7 @@
   - [MG Swipe Table Cell](https://github.com/MortimerGoro/MGSwipeTableCell): UITableViewCell subclass makes as swipeable with transitions.
   - [Owl](https://github.com/malcommac/Owl): Data-Driven Declarable lists
   - [Swipe Cell Kit](https://github.com/SwipeCellKit/SwipeCellKit)
+  - [RxDataSources](https://github.com/RxSwiftCommunity/RxDataSources)
 
 - Testing:
   - []()

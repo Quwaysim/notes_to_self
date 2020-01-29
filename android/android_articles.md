@@ -26,6 +26,13 @@
 ## Animation
 - [Fragment Transitions](https://chris.banes.dev/2018/02/18/fragmented-transitions/)
 
+## Bottom Sheet
+- https://github.com/firatkarababa/BottomAppBarBehaviour
+- https://github.com/firatkarababa/BottomAppBar
+- https://medium.com/material-design-in-action/implementing-bottomappbar-behavior-fbfbc3a30568
+- https://medium.com/material-design-in-action/implementing-bottomappbar-material-components-for-android-f490c4a01708
+- https://duckduckgo.com/?q=android+bottom+app+bar+The+style+on+this+component+requires+your+app+theme+to+be+Theme.MaterialComponents&t=osx&ia=web
+
 ## Databases
 - [CouchBase](https://www.raywenderlich.com/853-couchbase-tutorial-for-android-getting-started)
 - [CouchDb](https://github.com/couchbaselabs/couchbase-lite-tutorial-android)

@@ -5,6 +5,7 @@
 - [Evergreen](https://github.com/segmentio/evergreen)
 - [JinJa - Python Templating](http://jinja.pocoo.org/docs/dev/)
 - [Hugo](https://gohugo.io/getting-started/quick-start/): fastest framework for building websites
+- [Flux](http://facebook.github.io/flux/)
 
 ## IDEs
 - [WebStorm](https://www.jetbrains.com/webstorm/)
@@ -15,6 +16,8 @@
 - [BootStrap](https://getbootstrap.com/docs/4.1/layout/grid/)
 - [Bulma](https://bulma.io)
 - [Relay](https://github.com/expede/awesome-relay#readme): FB framework providing data-fetching functionality for React apps
+- [Redux](https://redux.js.org)
+- [Cycle](https://cycle.js.org): Functional & Reactive framework
 
 ## Examples
 - [React, TypeScript & MobX](https://github.com/eugenkiss/7guis-React-TypeScript-MobX)

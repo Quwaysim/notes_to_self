@@ -2,6 +2,7 @@
 - [Build Variants](https://developer.android.com/studio/build/build-variants)
 - [Build Variables](https://developer.android.com/studio/build/manifest-build-variables)
 - [App Quality Checklist](https://developer.android.com/docs/quality-guidelines/core-app-quality#sc)
+- [Security Checklist](https://developer.android.com/training/best-security.html)
 - [OS Distribution dashboard](https://developer.android.com/about/dashboards/)
 - [OS Versions](https://source.android.com/setup/start/build-numbers)
 - [Support Library Revision Archive](https://developer.android.com/topic/libraries/support-library/rev-archive#rev23-4-0)

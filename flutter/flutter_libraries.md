@@ -72,4 +72,9 @@
 
 
 - List Of Libraries:
-  - [Awesome Flutteri](https://github.com/Solido/awesome-flutter)
+  - [Awesome Flutter](https://github.com/Solido/awesome-flutter)
+  
+- Samples
+  - [Best Flutter UI Templates](https://github.com/mitesh77/Best-Flutter-UI-Templates)
+  - [Flutter Samples](https://github.com/flutter/samples)
+  - [Flutter Example Apps](https://github.com/iampawan/FlutterExampleApps)

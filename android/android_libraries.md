@@ -130,6 +130,10 @@
 - Shake Detection:
   - [Seismic](https://github.com/square/seismic): Shake detection
 
+- Shimmering Loading Animations:
+  - [ShimmerLayout](https://github.com/team-supercharge/ShimmerLayout) ✅
+  - [Shimmer Android](https://github.com/facebook/shimmer-android)
+
 - Testing:
   - [Mockito](https://github.com/mockito/mockito)
   - [Mockk](https://github.com/mockk/mockk)

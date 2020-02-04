@@ -107,6 +107,8 @@ https://download.cnet.com/FFView/3000-18488_4-50312.html
 
 - [Oh-My-Zsh](http://ohmyz.sh/): Your terminal never felt this good before.
 
+- [Brew](https://brew.sh)
+
 ## Trailer
 
 Accelerate your GitHub workflow.

@@ -113,11 +113,10 @@ Accelerate your GitHub workflow.
 
 https://ptsochantaris.github.io/trailer/
 
-## LiceCap
+## GIF Screen Capture tool
 
-Animated GIF Screen Capture tool. Super useful to demonstrate a bug or a feature
-
-http://www.cockos.com/licecap/
+- [LiceCap](http://www.cockos.com/licecap/)
+- [Kap](https://getkap.co)
 
 ## Documentation
 

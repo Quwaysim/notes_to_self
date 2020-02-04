@@ -22,12 +22,14 @@ po [variable name]
 
 Carthage
 ```
+brew install carthage
 carthage update --platform iOS
 carthage build --platform iOS
 ```
 
 Pod
 ```
+sudo gem install cocoapods
 pod install
 pod update
 ```

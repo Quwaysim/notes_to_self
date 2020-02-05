@@ -60,6 +60,8 @@ http://www.getcreditcardnumbers.com
 
 - [FontAwesome](https://fontawesome.com/): Free Resources
 
+- [The Stocks](http://thestocks.im/): Free Resources
+
 - [Material](https://material.io/tools/icons/?style=baseline): Icons
 
 - [Sketch](https://sketch.fordesignrs.com/): Sketch Freebies

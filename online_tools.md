@@ -38,6 +38,8 @@ http://www.getcreditcardnumbers.com
 
 - https://www.colorbox.io
 
+- https://coolors.co/
+
 ## Creative Resources
 
 - [Unsplash](https://unsplash.com): Free photos

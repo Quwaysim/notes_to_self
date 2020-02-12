@@ -11,6 +11,7 @@
 - [27 Places to learn](https://medium.com/app-coder-io/27-places-to-learn-ios-development-best-ones-b1bcfb48efab)
 - [Ray Wenderlich](https://www.raywenderlich.com/ios)
 - [iOS Tutorials](https://codewithchris.com/how-to-make-an-iphone-app/)
+- [iOS Topics](https://github.com/melling/ios_topics)
 
 ## Audio
 - [Audio](https://blog.shazam.com/core-audio-introduction-3ce40b7b9066)
@@ -52,6 +53,7 @@
 - [Protocols with associated types](https://www.natashatherobot.com/swift-what-are-protocols-with-associated-types/)
 - [Protocol oriented programming](https://medium.com/ios-os-x-development/protocol-oriented-programming-in-swift-daba92bc9c98)
 - [Raywenderlich's Swift Style Guide](https://github.com/raywenderlich/swift-style-guide)
+- [Swift Cookbook](https://github.com/melling/SwiftCookBook)
 
 ## SwiftUI
 - [Movie App Redux](https://github.com/Dimillian/MovieSwiftUI)

@@ -14,6 +14,7 @@
 ## Consulting
 - [YML](https://ymedialabs.com/x)
 - [HyperGiant](https://www.hypergiant.com/careers/)
+- [Grupa](https://grupa.io/howgrupaworks)
 
 ## Education
 - [IXL](https://www.ixl.com/company/)

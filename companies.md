@@ -23,6 +23,7 @@
 ## E-commerce
 - [WayFair](https://www.wayfaircareers.com/): remote friendly
 - [WalMart]()
+- [Poshmark](https://poshmark.com)
 
 ## Fitness
 - [Peerfit](https://www.peerfit.com)

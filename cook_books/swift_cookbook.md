@@ -161,9 +161,6 @@ fatalError("new run time error")
 
 # Functional
 ## map
-``swift
-```
-## map
 ```swift
 [1,2,3].map {$0 * 2}
 ```
@@ -172,11 +169,6 @@ fatalError("new run time error")
 ```swift
 [fooView, barView].forEach (view.addSubview) 
 ```
-
-## map
-``swift
-```
-
 
 # Guard
 ```swift
@@ -225,9 +217,9 @@ let nextReportingInterval = ReportingIntervals.getPositionOf(ordinal + 1)
 ```
 
 # Variable Reference
-strong foo: Bar? // normal reference counter <br>
-weak foo: Bar? // don't keep in heap in my counter <br>
-unowned // keep reference but doesn't up count, meant to break memory cycle of referencing foo <=> bar <br>
+`strong foo: Bar?` // normal reference counter <br>
+`weak foo: Bar?` // don't keep in heap in my counter <br>
+`unowned` // keep reference but doesn't up count, meant to break memory cycle of referencing foo <=> bar <br>
 
 # Protocol
 ```swift

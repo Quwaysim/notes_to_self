@@ -60,7 +60,7 @@ private val someConstant = 42;
 class MyClass {
   val mFooField: Int = 5
   val mBarField = "foo".length  
-  lateinit var URL: String
+  lateinit var someURL: String
 }
 ```
 
@@ -70,7 +70,7 @@ __GOOD__:
 class MyClass {
   val fooField = 5
   val barField: Int = "foo".length  
-  lateinit var Url: String
+  lateinit var someUrl: String
   
   companion object {
     const val SOME_CONSTANT = 42

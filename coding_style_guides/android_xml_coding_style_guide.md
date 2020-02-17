@@ -38,7 +38,7 @@ Naming conventions for selector states:
 | Disabled     | `_disabled`     | `btn_foo_disabled.xml`  |
 | Selected     | `_selected`     | `btn_foo_selected.xml`  |
 
-## 1.2 (XML) View ID Naming
+## 1.2 (XML/Kotlin) View Naming
 
 - Suffix class type
 - CamelCased.

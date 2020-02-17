@@ -54,7 +54,7 @@ __Examples:__
 __Rationale:__
 Since Kotlin extensions immediately ingests xml views as variables via extensions, we're not using the underscore notation as one normally does. Suffixing view type here helps easily know in Kotlin code whether we're dealing with a view object or non-view object.
 
-# 2 Dimensions
+# 2. Dimensions
 
 ## 2.1 Height & Width
 Hard coded dimension values should *not* be added directly to xml files, but rather added to `dimens.xml`, and referenced from there. The only exception to this rule is when the value is `0dp`.
@@ -87,7 +87,7 @@ If one were to be asked to update the height of view X, a developer would immedi
 - Paddings/Margins values are all base 8.
 - Better yet use existing Design System Value like `@dimen/s_horizontal_spacing`
 
-# 3 Layouts
+# 3. Layouts
 
 - Always use [Constraint Layouts](https://developer.android.com/training/constraint-layout/) since they are able to _"create large and complex layouts with a flat view hierarchy (no nested view groups)"_ that are performant.
 
@@ -101,7 +101,7 @@ If one were to be asked to update the height of view X, a developer would immedi
 
 - Never nest layouts inside of `ConstraintLayout`, as they're intended to reduce nesting.
 
-# 4 Strings
+# 4. Strings
 
 Every string value we use should not be added directly to the layout xml files, but rather added to `strings.xml` unless using the `tools` prefix for debugging purposes:
 
@@ -125,7 +125,7 @@ __GOOD:__
 __Rationale:__
 Allows for localization, reuse, and easier maintainability.
 
-# 5 Required Attributes
+# 5. Required Attributes
 
 The following views needs these attributes defined either explicitly or by referenced style:
 
@@ -153,7 +153,7 @@ The following views needs these attributes defined either explicitly or by refer
 - Not hardcoded.
 - Instead use an existing design value system Value like `@dimen/s_text_size`.
 
-# 6 Resource Placement
+# 6. Resource Placement
 
 ## 6.1 File placement of resources
 
@@ -200,7 +200,7 @@ __Rationale:__
 Notice now `search_type_wait_ms` can now be reused across different pages with its location not as ambiguous than say the first page to ever define it in Java/Kotlin.
 
 
-# 7 Debug Friendly
+# 7. Debug Friendly
 ## 7.1 Tools Attributes 
 - Always place & leave debug values on xml views for values that aren't hardcoded. 
 - Make views that are invisible/gone visible in debug mode.

@@ -33,20 +33,20 @@ Wrap all logging methods such that VERBOSE and DEBUG logs are disabled on releas
 
 # 2. Class member ordering
 
-1. Constants (sorted by visibility)
-2. Fields (sorted by visibility)
-3. Constructors
-4. Override lifecycle methods (sorted chronologically)
-5. Override methods (sorted by interface)
-6. Public methods
-7. Private methods
-8. Click listener implementation
-9. Inner classes or interfaces
+1. Constants (sorted by visibility).
+2. Fields (sorted by visibility).
+3. Constructors.
+4. Override lifecycle methods (sorted chronologically).
+5. Override methods (sorted by interface).
+6. Public methods.
+7. Private methods.
+8. Click listener implementation.
+9. Inner classes or interfaces.
 
 # 3. Parameter Ordering
 
 `Context` if amongst parameters, ought to be first. <br> 
-Callback interfaces that should always be the last parameter.
+Callback interfaces if amongst parameters, ought to be last. <br> 
  
  ```java
  public void loadUserAsync(Context context, int userId, UserCallback callback);
@@ -56,7 +56,7 @@ Callback interfaces that should always be the last parameter.
 ## 4.1 Activity Factory Method
 Activities shouldn't have launcher methods that launch themselves. <br>
 Activity factory methods should create `Intent`s that launch it such as `getStartIntent()`. <br>
-Activity shouldn't expose its `Extra` keys, nor `Result` keys instead rely on static methods that utilize them accordingly. <br> 
+Activities shouldn't expose their `Extra` nor `Result` keys, instead rely on public static methods that utilize them accordingly. <br> 
 
 ```java
  public static Intent getStartIntent(Context context, User user) {
@@ -67,8 +67,8 @@ Activity shouldn't expose its `Extra` keys, nor `Result` keys instead rely on st
 ``` 
 
 ## 4.2 Fragment Factory Method
-Fragment shouldn't expose its Argument keys, nor Result keys. <br>
-Fragments should include `newInstance()` that handles the creation of the Fragment with the right arguments: <br>
+Fragments shouldn't expose neither their `Argument` or `Result` keys. <br>
+Fragments should include `newInstance()` that handles the creation of themselves with the right arguments. <br>
 
 ```java
 public static UserFragment newInstance(User user) {
@@ -93,7 +93,7 @@ public static UserFragment newInstance(User user) {
 # 5. Image Assets
 
 When possible use SVGs, which are then coverted to VectorDrawables, over PNGs. <br>
-Should you have to use PNGs try providing all sizes for it `mdpi`, `hpdi`, `xhpdi`, etc. <br>
+Should you have to use PNGs, try providing all of its sizes: `mdpi`, `hpdi`, `xhpdi`, etc. <br>
 
 # 6. Theme
 

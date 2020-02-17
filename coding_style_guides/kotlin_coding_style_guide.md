@@ -11,6 +11,7 @@
 - [10. Using Loops](#10-using-loops)
 - [11. Strings](#11-strings)
 - [12. Scope Functions](#12-scope-functions)
+- [13. Whitespacing](#13-whitespacing)
 
 # 1. Naming
 ## 1.1 Packages
@@ -379,3 +380,57 @@ Bar
 ```
 # 12. Scope Functions
 Make good use of `let`, `run`, `with`, `apply`, and `also`. Refer to their documentation [here.](https://kotlinlang.org/docs/reference/scope-functions.html)
+
+# 13. Whitespacing
+Never put a space after `(`, `[`, or before `]`, `)`.
+
+__BAD:__
+
+```kotlin
+if( foo) bar() 
+```
+__GOOD:__
+
+```kotlin
+if (foo) bar()
+```
+
+Never put a space around `.` or `?.`
+
+__BAD:__
+
+```kotlin
+foo?. bar()
+```
+
+__GOOD:__
+
+```kotlin
+foo?.bar()
+```
+
+Put a space after `//`: 
+
+__GOOD:__
+
+```kotlin
+// This is a comment
+```
+
+Always put a space after `:`.
+Always put a space before `:` except when defining type of method, or variable.
+
+__BAD:__
+
+```kotlin
+abstract class Foo<out T:Any>: IFoo {
+    abstract fun foo(a : Int) :T
+}
+```
+__GOOD:__
+
+```kotlin
+abstract class Foo<out T : Any> : IFoo {
+    abstract fun foo(a: Int): T
+}
+```

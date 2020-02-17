@@ -1,9 +1,5 @@
 # Table of Contents  
 - [1. Naming](#1-naming)
-  - [1.1 Packages](#11-packages)
-  - [1.2 Classes & Interfaces](#12-classes--interfaces)
-  - [1.3 Methods](#13-methods)
-  - [1.4 Fields](#14-fields)
 - [2. Brace Style](#2-brace-style)
 - [3. When Statements](#3-when-statements)
 - [4. Visibility Modifiers](#4-visibility-modifiers)
@@ -119,7 +115,7 @@ class MyClass {
 
 # 3. When Statements
 
-- When you have if else conditions exceeding 2 conditions opt to using a when statment.
+- When you have if else conditions exceeding 2 conditions opt to using a `when` statment.
 - Separate cases using commas if they should be handled the same way. 
 - Always include the else case.
 

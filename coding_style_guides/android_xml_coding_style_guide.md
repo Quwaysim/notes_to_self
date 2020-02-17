@@ -52,7 +52,7 @@ Naming conventions for selector states:
 | TextView       | `TextView`       | `userNameLoginTextView`    |
 | LinearLayout       | `LinearLayout`       | `schedulesLinearLayout`    |
 
-__Rationale:__
+__Rationale:__ <br>
 Since Kotlin extensions immediately ingests xml views as variables via extensions, we're not using the underscore notation as one normally does. Suffixing view type here helps easily know in Kotlin code whether we're dealing with a view object or non-view object.
 
 # 2. Dimensions
@@ -80,7 +80,7 @@ __GOOD:__
         
 ```
 
-__Rationale:__
+__Rationale:__ <br>
 If one were to be asked to update the height of view X, a developer would immediately go to `dimens.xml` knowing X's value is there, instead of having the developer find the right layout/xml file to update it respectively.
 
 ## 2.2 Margins & Paddings

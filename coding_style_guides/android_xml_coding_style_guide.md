@@ -7,7 +7,7 @@
 - [6. Resource Placement](#6-resource-placement)
 - [7. Debug Friendly](#7-debug-friendly)
 - [8. Closing Tags](#8-closing-tags)
-- [9. Attributes Ordering](#9-attributes-ordering)
+- [9. Attribute Ordering](#9-attribute-ordering)
 
 # 1. Naming
 
@@ -53,7 +53,7 @@ Naming conventions for selector states:
 | LinearLayout       | `LinearLayout`       | `schedulesLinearLayout`    |
 
 __Rationale:__ <br>
-Since Kotlin extensions immediately ingests xml views as variables via extensions, we're not using the underscore notation as one normally does. Suffixing view type here helps easily know in Kotlin code whether we're dealing with a view object or non-view object.
+Since [Kotlin extensions](https://kotlinlang.org/docs/tutorials/android-plugin.html#view-binding) immediately ingests xml views as variables via extensions, we're not using the underscore notation as one normally does. Suffixing view type here helps easily know in Kotlin code whether we're dealing with a view object or non-view object.
 
 # 2. Dimensions
 
@@ -64,7 +64,6 @@ __BAD:__
 
 ```xml
 <Linear Layout
-    android:id="@+id/llIncidentReportDetails"
     android:layout_width="400dp"
     android:layout_height="200dp">
 ```
@@ -73,7 +72,6 @@ __GOOD:__
 
 ```xml
 <Linear Layout
-    android:id="@+id/incidentReportDetailsLinearLayout"
     android:layout_width="@dimen/report_details_width"
     android:layout_height="@dimen/report_details_height">
 ```
@@ -90,7 +88,6 @@ __BAD:__
 
 ```xml
 <Linear Layout
-    android:id="@+id/llIncidentReportDetails"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginTop="@dimen/incidentReportDetailsMarginTop">
@@ -100,7 +97,6 @@ __GOOD:__
 
 ```xml
 <Linear Layout
-    android:id="@+id/incidentReportDetailsLinearLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginTop="@dimen/m_vertical_spacing">
@@ -287,10 +283,10 @@ __GOOD:__
     android:layout_height="wrap_content" />
 ```
 
-# 9. Attributes Ordering
+# 9. Attribute Ordering
 1. View Id.
 2. Layout width and layout height.
 3. `android:` attributes, sorted alphabetically.
 4. `app:` attributes, sorted alphabetically.
 5. Style.
-6. `tools:`.
+6. `tools:` attributes, sorted alphabetically.

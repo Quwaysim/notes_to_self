@@ -14,7 +14,7 @@
 # 1. Naming
 ## 1.1 Packages
 
-Package names are all __lower-camel-case__, multiple words concatenated together, without hypens or underscores:
+Package names are all __lowercamelcase__, multiple words concatenated together, without hypens or underscores:
 
 __BAD__:
 
@@ -42,7 +42,7 @@ Written in __UpperCamelCase__. For example `RadialSlider`.
 ## 1.4 Fields
 
 - All fields should be written in __lowerCamelCase__.
-- Static constant fields should be written in __uppercase__ & in the companion objec.
+- Static constant fields should be written in __uppercase__ & in the companion object.
 - *Do not* prefix member variables with `m`.
 - *Do not* prefix static field names with an `s`.
 - Each variable should get its own declaration line.

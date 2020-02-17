@@ -84,7 +84,7 @@ If one were to be asked to update the height of view X, a developer would immedi
 ## 2.2 Margins & Paddings
 - Not hard-coded.
 - Paddings/Margins values are all base 8.
-- Better yet use existing Design System Value like `@dimen/s_horizontal_spacing`
+- Use existing design value system values such as `@dimen/s_horizontal_spacing`
 
 # 3. Layouts
 
@@ -96,9 +96,7 @@ If one were to be asked to update the height of view X, a developer would immedi
 
 - Never use `layout_width=”match_parent”` for a view inside `ConstraintLayout`. Using `layout_width=”0dp”` with constraints allows for view measurement optimizations.
 
-- Avoid `GuideLine` and `Barrier`. Although there are proper uses for these, there are not what you want most of the time.
-
-- Never nest layouts inside of `ConstraintLayout`, as they're intended to reduce nesting.
+- Never nest layouts inside of `ConstraintLayout` since they're intended to reduce nesting.
 
 # 4. Strings
 
@@ -150,7 +148,8 @@ The following views needs these attributes defined either explicitly or by refer
 - Even numbered size.
 - Minimum of `12sp`.
 - Not hardcoded.
-- Instead use an existing design value system Value like `@dimen/s_text_size`.
+- Use an existing design value system Value like `@dimen/s_text_size`.
+- Better yet reference a Text Appearance that includes size, font, and attributes.
 
 # 6. Resource Placement
 
@@ -198,7 +197,8 @@ RxTextView.textChanges(searchTextView)
 <integer name="search_type_wait_ms">100</integer>
 ```
 __Rationale:__
-Notice now `search_type_wait_ms` can now be reused across different pages with its location not as ambiguous than say the first page to ever define it in Java/Kotlin.
+- Notice now `search_type_wait_ms` can now be reused across different pages with its location not as ambiguous than say the first page to ever define it in Java/Kotlin.
+- Resource files are now more so a place to configure the application.
 
 
 # 7. Debug Friendly

@@ -417,7 +417,7 @@ __GOOD:__
 // This is a comment
 ```
 
-Always put a space after `:`.
+Always put a space after `:`. <br>
 Always put a space before `:` except when defining type of method, or variable.
 
 __BAD:__

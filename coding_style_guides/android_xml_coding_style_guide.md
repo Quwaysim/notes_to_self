@@ -58,7 +58,7 @@ Since Kotlin extensions immediately ingests xml views as variables via extension
 # 2. Dimensions
 
 ## 2.1 Height & Width
-Hard coded dimension values should *not* be added directly to xml files, but rather added to `dimens.xml`, and referenced from there. The only exception to this rule is when the value is `0dp`.
+Hard coded dimension values should *not* be added directly to xml files, but rather added to `dimens.xml`, with the exception `0dp` values.
 
 __BAD:__
 
@@ -67,7 +67,6 @@ __BAD:__
     android:id="@+id/llIncidentReportDetails"
     android:layout_width="400dp"
     android:layout_height="200dp">
-
 ```
 
 __GOOD:__
@@ -77,7 +76,6 @@ __GOOD:__
     android:id="@+id/incidentReportDetailsLinearLayout"
     android:layout_width="@dimen/report_details_width"
     android:layout_height="@dimen/report_details_height">
-        
 ```
 
 __Rationale:__ <br>
@@ -87,6 +85,26 @@ If one were to be asked to update the height of view X, a developer would immedi
 - Not hard-coded.
 - Paddings/Margins values are all base 8.
 - Use existing design value system values such as `@dimen/s_horizontal_spacing`
+
+__BAD:__
+
+```xml
+<Linear Layout
+    android:id="@+id/llIncidentReportDetails"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/incidentReportDetailsMarginTop">
+```
+
+__GOOD:__
+
+```xml
+<Linear Layout
+    android:id="@+id/incidentReportDetailsLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/m_vertical_spacing">
+```
 
 ## 2.3 Text Sizes
 - Defined in `sp` and not in `dp`.
@@ -129,7 +147,7 @@ __GOOD:__
     style="@style/generic_item_name_text_view"/> 
 ```
 
-__Rationale:__
+__Rationale:__ <br>
 Allows for localization, reuse, and easier maintainability.
 
 # 5. Required Attributes
@@ -198,7 +216,7 @@ RxTextView.textChanges(searchTextView)
 <!-- integers.xml -->
 <integer name="search_type_wait_ms">100</integer>
 ```
-__Rationale:__
+__Rationale:__ <br>
 - Notice now `search_type_wait_ms` can now be reused across different pages with its location not as ambiguous than say the first page to ever define it in Java/Kotlin.
 - Resource files are now more so a place to configure the application.
 
@@ -219,7 +237,7 @@ __Example:__
       tools:visibility="visible"
       tools:text="John Doe"/> 
 ```
-__Rationale:__
+__Rationale:__ <br>
 Allows for easier development & maintainability. Instead of having to run the app to see how the xml would look like, the developer could quickly switch to design mode & see its look. ["When you build your app, the build tools remove these attributes so there is no effect on your APK size or runtime behavior."](https://developer.android.com/studio/write/tool-attributes)
 
 ## 7.2 Outer View Group IDs
@@ -245,7 +263,7 @@ __GOOD:__
 ```
 
 
-__Rationale:__
+__Rationale:__ <br>
 Adding unique root view ids is immensely helpful when debugging using the `Layout Inspector`.
 
 # 8. Closing Tags

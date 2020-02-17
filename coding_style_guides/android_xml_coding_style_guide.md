@@ -38,10 +38,10 @@ Naming conventions for selector states:
 | Disabled     | `_disabled`     | `btn_foo_disabled.xml`  |
 | Selected     | `_selected`     | `btn_foo_selected.xml`  |
 
-## 1.2 View ID Naming
+## 1.2 (XML) View ID Naming
 
-- Suffix type
-- Are camelCased.
+- Suffix class type
+- CamelCased.
 
 | Type           | Suffix          | Example                     |
 |--------------|-----------------|-----------------------------|

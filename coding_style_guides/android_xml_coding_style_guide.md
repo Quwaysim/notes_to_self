@@ -6,6 +6,8 @@
 - [5. Required Attributes](#5-required-attributes)
 - [6. Resource Placement](#6-resource-placement)
 - [7. Debug Friendly](#7-debug-friendly)
+- [8. Closing Tags](#8-closing-tags)
+- [9. Attributes Ordering](#9-attributes-ordering)
 
 # 1. Naming
 
@@ -245,3 +247,32 @@ __GOOD:__
 
 __Rationale:__
 Adding unique root view ids is immensely helpful when debugging using the `Layout Inspector`.
+
+# 8 Closing Tags
+
+When an XML element doesn't have any contents, use self closing tags.
+
+__BAD:__
+```xml
+<TextView
+    android:id="@+id/userTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+</TextView>
+```
+
+__GOOD:__
+```xml
+<TextView
+    android:id="@+id/userTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+```
+
+# 9 Attributes Ordering
+1. View Id
+2. Layout width and layout height
+3. `android:` attributes, sorted alphabetically
+4. `app:` attributes, sorted alphabetically
+5. Style
+6. Tools

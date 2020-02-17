@@ -1,21 +1,18 @@
 # Table of Contents  
 - [1. Naming](#1-naming)
-  - [1.1 Packages](#11-packages)
-  - [1.2 Classes & Interfaces](#12-classes--interfaces)
-  - [1.3 Methods](#13-methods)
-  - [1.4 Fields](#14-fields)
 - [2. Brace Style](#2-brace-style)
 - [3. Switch Statements](#3-switch-statements)
 - [4. Annotations](#4-annotations)
 - [5. Final when final](#5-final-when-final)
 - [6. Protect your fields](#6-protect-your-fields)
+- [7. Class member ordering](#7-class-member-ordering)
+- [8. Imports](#8-imports)
+- [9. Exceptions](#9-exceptions)
 
 # 1. Naming
 ## 1.1 Packages
 
-Package names are all __lower-camel-case__, multiple words concatenated together,
-without
-hypens or underscores:
+Package names are all __lower-camel-case__, multiple words concatenated together, without hypens or underscores:
 
 __BAD__:
 
@@ -36,8 +33,7 @@ Written in __UpperCamelCase__. For example `RadialSlider`.
 ## 1.3 Methods
 
 - Written in __lowerCamelCase__. For example `setValue`.
-- Always stating a verb indicating its intent `getFoo`, `setBar`, `changeFoo`
-- Method orders should go in override first and in alphabetical order
+- Always stating a verb indicating its intent `getFoo`, `setBar`, `changeFoo`.
 
 ## 1.4 Fields
 
@@ -77,6 +73,7 @@ public class MyClass {
 ```
 
 # 2. Brace Style
+Opt to ["Walk Like an Egyptian"](https://www.youtube.com/watch?v=Cv6tuzHUuuk) when placing braces.
 
 __BAD:__
 
@@ -129,6 +126,19 @@ class MyClass {
     // ...
   }
 }
+```
+If the condition and the body fit on one line & is shorter than the max line length, then braces are not required
+
+__BAD:__
+
+```java
+if (foo)
+    bar()
+```
+__GOOD:__
+
+```java
+if (foo) bar();
 ```
 
 # 3. Switch Statements
@@ -193,6 +203,9 @@ protected void onCreate(Bundle savedInstanceState) {
 }
 ```
 
+The @SuppressWarnings annotation should only be used under circumstances where it is impossible to eliminate a warning. <br>
+Suppressing should be placed right over the offending line as opposed to the method it lies in.
+
 # 5. Final when final
 
 - Use `final` when possible in creating variables. It helps read code and describe intent with the variable.
@@ -202,3 +215,67 @@ protected void onCreate(Bundle savedInstanceState) {
 
 - Use `protected`, `private`, as much as you can
 - Avoid `public` field variables at all costs.
+
+# 7. Class member ordering
+
+1. Constants
+2. Fields (static, non-static, and by visibility)
+3. Constructors  (static, non-static, and by visibility)
+4. Override methods
+5. Public methods
+6. Protected methods
+7. Private methods
+8. Private callbacks
+9. Inner classes or interfaces
+
+# 8. Imports
+
+Fully qualify imports & avoid wildcards.
+
+__BAD:__
+
+```java
+import foo.*;
+```
+
+__GOOD:__
+
+```java
+import foo.Bar;
+```
+# 9 Exceptions
+
+Don't catch generic exceptions
+
+__BAD:__
+
+```java
+try {
+    foo();
+} catch (Exception e) {
+    handleError();
+}
+```
+
+__GOOD:__
+
+```java
+try {
+    foo();
+} catch (NumberFormatException e) {
+    handleError();
+} catch(InstantiationException e) {
+    throw new IllegalArgumentException("poor foo argument passed");
+}
+```
+Don't ignore exceptions
+
+__BAD:__
+
+```java
+try {
+    foo();
+} catch (Exception e) { }
+```
+
+*Rationale:* You may suppress errors that become a lot harder to debug down the road once they appear.

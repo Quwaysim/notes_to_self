@@ -8,8 +8,9 @@
 - [7. Getters & Setters](#5-getters-&-setters)
 - [8. Early returns](#8-early-returns)
 - [9. Method Formatting](#9-method-formatting)
-- [10. Named Arguments](#10-named-arguments)
-- [11. Using Loops](#11-using-loops)
+- [10. Using Loops](#10-using-loops)
+- [11. Strings](#11-strings)
+- [12. Scope Functions](#12-scope-functions)
 
 # 1. Naming
 ## 1.1 Packages
@@ -135,7 +136,7 @@ __BAD:__
 
 ```kotlin
 when (anInput) {
-  1 -> doSomethingForCaseOneOrTwo()
+  1 -> { doSomethingForCaseOneOrTwo() }
   2 -> doSomethingForCaseOneOrTwo()
   3 -> doSomethingForCaseThree()
 }
@@ -266,7 +267,7 @@ __GOOD:__
 fun foo() = 1
 ```
 
-## 9.3 Return method blocks when possible
+## 9.3 Return method blocks concisely
 __BAD:__
 
 ```kotlin
@@ -297,7 +298,7 @@ fun foo(anInput): Int =
 }
 ```
 
-# 10. Named Arguments
+## 9.4 Name Arguments
 
 Use the named argument syntax when a method takes multiple parameters, unless the meaning of all parameters is absolutely clear from context.
 
@@ -314,8 +315,8 @@ drawSquare(x = 10, y = 10, width = 100, height = 100, fill = true)
 ```
 
 
-# 11. Using Loops
-## 11.1 High Order 
+# 10. Using Loops
+## 10.1 High Order 
 Prefer using higher-order functions like `filter` & `map` to loops
 
 __BAD:__
@@ -332,7 +333,7 @@ bars.map { println("$it") }
 ```
 
 
-## 11.2 Ranges
+## 10.2 Ranges
 Use `until`  to loop over ranges:
 
 __BAD:__
@@ -346,3 +347,35 @@ __GOOD:__
 for (i in 0 until n) { /*...*/ }  
 ```
 
+# 11. Strings
+## 11.1 Use string templates
+
+__BAD:__
+
+```kotlin
+println(name + "has " + children.size + " children") 
+```
+__GOOD:__
+
+```kotlin
+println("$name has ${children.size} children")  
+```
+
+## 11.2 Multiline
+Prefer to use multiline strings instead of embedding \n escape sequences into regular string literals.
+
+__BAD:__
+
+```kotlin
+val string = "Foo \n Bar" 
+```
+__GOOD:__
+
+```kotlin
+val string = """
+Foo
+Bar
+""".trimIndent()  
+```
+# 12. Scope Functions
+Make good use of `let`, `run`, `with`, `apply`, and `also`. Refer to their documentation [here.](https://kotlinlang.org/docs/reference/scope-functions.html)

@@ -202,13 +202,13 @@ __BAD:__
 
 ```kotlin
 val foo: String
-fun getFoo(): String = foo
+fun getFoo(): String = foo.trim()
 ```
 
 __GOOD:__
 ```kotlin
 val foo: String
-  get() { /*...*/ }
+  get() { foo.trim() }
 ```
 
 # 8. Early returns

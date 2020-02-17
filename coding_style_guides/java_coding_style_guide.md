@@ -10,8 +10,8 @@
 - [Final when final](#final-when-final)
 - [Protect your fields](#protect-your-fields)
 
-## Naming
-### Packages
+## 1. Naming
+### 1.1 Packages
 
 Package names are all __lower-camel-case__, multiple words concatenated together,
 without
@@ -29,17 +29,17 @@ __GOOD__:
 com.company.funkyWidget
 ```
 
-### Classes & Interfaces
+### 1.2 Classes & Interfaces
 
 Written in __UpperCamelCase__. For example `RadialSlider`.
 
-### Methods
+### 1.3 Methods
 
 - Written in __lowerCamelCase__. For example `setValue`.
 - Always stating a verb indicating its intent `getFoo`, `setBar`, `changeFoo`
 - Method orders should go in override first and in alphabetical order
 
-### Fields
+### 1.4 Fields
 
 - All fields should be Written in __lowerCamelCase__.
 - Static fields should be written in __uppercase__.
@@ -76,7 +76,7 @@ public class MyClass {
 }
 ```
 
-## Brace Style
+## 2. Brace Style
 
 __BAD:__
 
@@ -131,7 +131,7 @@ class MyClass {
 }
 ```
 
-## Switch Statements
+## 3. Switch Statements
 
 Switch statements fall-through by default, but this can be unintuitive. If you
 require this behavior, comment it.
@@ -171,7 +171,7 @@ switch (anInput) {
 }
 ```
 
-## Annotations
+## 4. Annotations
 
 Standard annotations should be used - in particular `@Override`. This should
 appear the line before the function declaration.
@@ -193,12 +193,12 @@ protected void onCreate(Bundle savedInstanceState) {
 }
 ```
 
-## Final when final
+## 5. Final when final
 
 - Use `final` when possible in creating variables. It helps read code and describe intent with the variable.
 - Also use `final` on classes that you feel should be final.
 
-## Protect your fields
+## 6. Protect your fields
 
 - Use `protected`, `private`, as much as you can
 - Avoid `public` field variables at all costs.

@@ -15,7 +15,7 @@
 
 ### 1.1.1 Class File Naming
 - Class names are written in UpperCamelCase.
-- Name should end with the name of the extending component if any, such ass `FooActivity`
+- Name should end with the name of the extending component if any, such as `FooActivity`
 
 ### 1.1.2 Layout File Naming
 - Prefix file names with the type of view that they represent:
@@ -44,12 +44,12 @@ Naming conventions for selector states:
 
 - Suffix type
 - Are camelCased.
-
-__Examples:__
-- TextView - `userNameLoginTextView` <br>
-- ImageView - `userAvatarGeneralImageView` <br>
-- Button - `submitSchedulesButton` <br>
-- LinearLayout - `schedulesLinearLayout` <br><br>
+| Type           | Suffix          | Example                     |
+|--------------|-----------------|-----------------------------|
+| Button       | `Button`       | `submitSchedulesButton`    |
+| ImageView       | `ImageView`       | `userAvatarGeneralImageView`    |
+| TextView       | `TextView`       | `userNameLoginTextView`    |
+| LinearLayout       | `LinearLayout`       | `schedulesLinearLayout`    |
 
 __Rationale:__
 Since Kotlin extensions immediately ingests xml views as variables via extensions, we're not using the underscore notation as one normally does. Suffixing view type here helps easily know in Kotlin code whether we're dealing with a view object or non-view object.

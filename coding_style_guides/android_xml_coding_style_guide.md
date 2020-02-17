@@ -72,7 +72,7 @@ __GOOD:__
 
 ```xml
 <Linear Layout
-    android:id="@+id/llIncidentReportDetails"
+    android:id="@+id/incidentReportDetailsLinearLayout"
     android:layout_width="@dimen/report_details_width"
     android:layout_height="@dimen/report_details_height">
         
@@ -113,7 +113,7 @@ __GOOD:__
 
 ```xml
 <TextView
-    android:id="@+id/tvName"
+    android:id="@+id/nameTextView"
     android:text="@string/name_text_view"
     tools:text="John Doe"
     style="@style/generic_item_name_text_view"/> 
@@ -212,7 +212,7 @@ __Example:__
   xmlns:tools="http://schemas.android.com/tools">
 
   <TextView
-      android:id="@+id/tvName"
+      android:id="@+id/nameTextView"
       android:visibility="gone"
       tools:visibility="visible"
       tools:text="John Doe"/> 
@@ -239,7 +239,7 @@ __GOOD:__
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/vg_root_user_account"
+    android:id="@+id/userAccountViewGroup"
 ```
 
 

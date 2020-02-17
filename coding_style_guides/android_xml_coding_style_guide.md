@@ -1,11 +1,11 @@
 # Table of Contents  
-- [Naming](#1-naming)
-- [Dimensions](#2-dimensions)
-- [Layouts](#3-layouts)
-- [Strings](#4-strings)
-- [Required Attributes](#5-required-attributes)
-- [Resource Placement](#6-resource-placement)
-- [Debug Friendly](#7-debug-friendly)
+- [1. Naming](#1-naming)
+- [2. Dimensions](#2-dimensions)
+- [3. Layouts](#3-layouts)
+- [4. Strings](#4-strings)
+- [5. Required Attributes](#5-required-attributes)
+- [6. Resource Placement](#6-resource-placement)
+- [7. Debug Friendly](#7-debug-friendly)
 
 # 1. Naming
 

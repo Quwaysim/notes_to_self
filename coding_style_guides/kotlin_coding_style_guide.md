@@ -252,7 +252,7 @@ fun longMethodName(
 ```
 
 ## 9.2 Expression bodies over expression blocks
-Prefer using an expression body for methods with the body consists of a single expression.
+Prefer using an expression body for methods with bodies consisting of a single expression.
 
 __BAD:__
 

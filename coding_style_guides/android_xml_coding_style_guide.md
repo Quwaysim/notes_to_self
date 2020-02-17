@@ -53,7 +53,7 @@ Naming conventions for selector states:
 | LinearLayout       | `LinearLayout`       | `schedulesLinearLayout`    |
 
 __Rationale:__ <br>
-Since [Kotlin extensions](https://kotlinlang.org/docs/tutorials/android-plugin.html#view-binding) immediately ingests xml views as variables via extensions, we're not using the underscore notation as one normally does. Suffixing view type here helps easily know in Kotlin code whether we're dealing with a view object or non-view object.
+Since [Kotlin extensions](https://kotlinlang.org/docs/tutorials/android-plugin.html#view-binding) immediately ingest XML views as variables, we omit using the underscore notation as one normally does. Suffixing view type here helps easily know in Kotlin code whether we're dealing with a view object or non-view object.
 
 # 2. Dimensions
 
@@ -63,7 +63,7 @@ Hard coded dimension values should *not* be added directly to xml files, but rat
 __BAD:__
 
 ```xml
-<Linear Layout
+<ImageView
     android:layout_width="400dp"
     android:layout_height="200dp">
 ```
@@ -71,13 +71,13 @@ __BAD:__
 __GOOD:__
 
 ```xml
-<Linear Layout
+<ImageView
     android:layout_width="@dimen/report_details_width"
     android:layout_height="@dimen/report_details_height">
 ```
 
 __Rationale:__ <br>
-If one were to be asked to update the height of view X, a developer would immediately go to `dimens.xml` knowing X's value is there, instead of having the developer find the right layout/xml file to update it respectively.
+If one were to be asked to update the height of view X, a developer would immediately go to `dimens.xml` knowing X's value is there, instead of having the developer find the right layout/xml file to update it accordingly.
 
 ## 2.2 Margins & Paddings
 - Not hard-coded.
@@ -107,7 +107,7 @@ __GOOD:__
 - Even numbered size.
 - Minimum of `12sp`.
 - Not hardcoded.
-- Use an existing design value system Value like `@dimen/s_text_size`.
+- Use an existing design value system value like `@dimen/s_text_size`.
 - Better yet reference a Text Appearance that includes size, font, and attributes.
 
 # 3. Layouts
@@ -118,9 +118,9 @@ __GOOD:__
 
 - Never use `Relative Layout`. Period.
 
-- Never use `layout_width=”match_parent”` for a view inside `ConstraintLayout`. Using `layout_width=”0dp”` with constraints allows for view measurement optimizations.
+- Never use `layout_width=”match_parent”` for a view inside `ConstraintLayout`. Use `layout_width=”0dp”` with constraints allowing for view measurement optimizations.
 
-- Never nest layouts inside of `ConstraintLayout` since they're intended to reduce nesting.
+- Never nest layouts inside of `ConstraintLayout`, since they're intended to reduce nesting.
 
 # 4. Strings
 
@@ -144,7 +144,7 @@ __GOOD:__
 ```
 
 __Rationale:__ <br>
-Allows for localization, reuse, and easier maintainability.
+Allows for localization, reuse, & easier maintainability.
 
 # 5. Required Attributes
 
@@ -201,7 +201,7 @@ RxTextView.textChanges(searchTextView)
     .debounce(SEARCH_TYPE_WAIT_MS, TimeUnit.MILLISECONDS)
 ```
 
-__MUCH BETTER:__
+__BEST:__
 ```java
 @BindInt(R.integers.search_type_wait_ms) int SEARCH_TYPE_WAIT_MS;
 ...
@@ -284,8 +284,8 @@ __GOOD:__
 ```
 
 # 9. Attribute Ordering
-1. View Id.
-2. Layout width and layout height.
+1. Id.
+2. Width & height.
 3. `android:` attributes, sorted alphabetically.
 4. `app:` attributes, sorted alphabetically.
 5. Style.

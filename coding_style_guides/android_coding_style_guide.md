@@ -45,8 +45,8 @@ Wrap all logging methods such that VERBOSE and DEBUG logs are disabled on releas
 
 # 3. Parameter Ordering
 
-`Context` if amongst parameters, ought to be first. <br> 
-Callback interfaces if amongst parameters, ought to be last. <br> 
+`Context`, if amongst parameters, ought to be first. <br> 
+Callback interfaces, if amongst parameters, ought to be last. <br> 
  
  ```java
  public void loadUserAsync(Context context, int userId, UserCallback callback);
@@ -94,6 +94,7 @@ public static UserFragment newInstance(User user) {
 
 When possible use SVGs, which are then coverted to VectorDrawables, over PNGs. <br>
 Should you have to use PNGs, try providing all of its sizes: `mdpi`, `hpdi`, `xhpdi`, etc. <br>
+VectorDrawables ought to reference colors from app theme and rarely hardcode colors. <br>
 
 # 6. Theme
 

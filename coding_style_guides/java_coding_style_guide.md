@@ -98,9 +98,11 @@ class MyClass
 ```java
 class MyClass {
   void doSomething() {
-    if (someText == null) return;
-    // ...
-  }
+    if (someText == null) {
+      // ...
+    } else {
+      // ...
+    }
 }
 ```
 
@@ -144,8 +146,8 @@ if (foo) bar();
 
 # 3. Switch Statements
 
-Switch statements fall-through by default, but this can be unintuitive. If you require this behavior, comment it. <br>
 Alway include the `default` case. <br>
+When `switch` statements fall-through, comment it. <br>
 
 __BAD:__
 
@@ -182,7 +184,7 @@ switch (anInput) {
 
 # 4. Annotations
 
-Standard annotations should be used - in particular `@Override`. This should appear the line before the function declaration.
+Use Standard annotations, in particular `@Override`, which are placed the line before function declaration.
 
 __BAD:__
 
@@ -206,25 +208,25 @@ Suppressing should be placed right over the offending line as opposed to the met
 
 # 5. Final when final
 
-- Use `final` when possible in creating variables. It helps read code and describe intent with the variable.
-- Also use `final` on classes that you feel should be final.
+Use `final` when possible in creating variables. <br>
+Use `final` on classes that you don't wish to be extended. <br>
 
 # 6. Protect your fields
 
-- Use `protected`, `private`, as much as you can
-- Avoid `public` field variables at all costs.
+Use `protected`, `private`, as much as you can.  <br>
+Avoid `public` field variables at all costs. <br>
 
 # 7. Class member ordering
 
-1. Constants
-2. Fields (static, non-static, and by visibility)
-3. Constructors  (static, non-static, and by visibility)
-4. Override methods
-5. Public methods
-6. Protected methods
-7. Private methods
-8. Private callbacks
-9. Inner classes or interfaces
+1. Constants.
+2. Fields (static, non-static, and by visibility).
+3. Constructors  (static, non-static, and by visibility).
+4. Override methods.
+5. Public methods.
+6. Protected methods.
+7. Private methods.
+8. Private callbacks.
+9. Inner classes or interfaces.
 
 # 8. Imports
 
@@ -275,5 +277,5 @@ try {
     foo();
 } catch (Exception e) { }
 ```
-
-*Rationale:* You may suppress errors that become a lot harder to debug down the road once they appear.
+__Rationale:__ <br>
+You may suppress errors that become a lot harder to debug down the road once they appear.

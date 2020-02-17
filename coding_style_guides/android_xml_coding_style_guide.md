@@ -88,6 +88,14 @@ If one were to be asked to update the height of view X, a developer would immedi
 - Paddings/Margins values are all base 8.
 - Use existing design value system values such as `@dimen/s_horizontal_spacing`
 
+## 2.3 Text Sizes
+- Defined in `sp` and not in `dp`.
+- Even numbered size.
+- Minimum of `12sp`.
+- Not hardcoded.
+- Use an existing design value system Value like `@dimen/s_text_size`.
+- Better yet reference a Text Appearance that includes size, font, and attributes.
+
 # 3. Layouts
 
 - Always use [Constraint Layouts](https://developer.android.com/training/constraint-layout/) since they are able to _"create large and complex layouts with a flat view hierarchy (no nested view groups)"_ that are performant.
@@ -144,14 +152,6 @@ The following views needs these attributes defined either explicitly or by refer
 - `layout_height`
 - `layout_width`
 - `orientation`
-
-## 5.4 Text Sizes
-- Defined in `sp` and not in `dp`.
-- Even numbered size.
-- Minimum of `12sp`.
-- Not hardcoded.
-- Use an existing design value system Value like `@dimen/s_text_size`.
-- Better yet reference a Text Appearance that includes size, font, and attributes.
 
 # 6. Resource Placement
 

@@ -36,9 +36,9 @@ Written in __UpperCamelCase__. For example `RadialSlider`.
 ## 1.3 Methods
 
 - Written in __lowerCamelCase__. For example `setValue`.
-- Always stating a verb indicating its intent `getFoo`, `setBar`, `changeFoo`
-- Method orders should go in override first and in alphabetical order
-- Ought to always explicitly declare return type
+- Always stating a verb indicating its intent `getFoo`, `setBar`, `changeFoo`.
+- Method orders should go in override first and in alphabetical order.
+- Ought to always explicitly declare return type.
 
 ## 1.4 Fields
 
@@ -49,8 +49,8 @@ Written in __UpperCamelCase__. For example `RadialSlider`.
 - Each variable should get its own declaration line.
 - Single character names should be avoided except for temporary looping variables.
 - Acronyms should be treated as words, ie `URL` should be `Url`.
-- Obvious variable types can be implicitly declared
-- Non-obvious variable types should be explicitly declared
+- Obvious variable types can be implicitly declared.
+- Non-obvious variable types should be explicitly declared.
 
 __BAD__:
 
@@ -79,7 +79,7 @@ class MyClass {
 
 # 2. Brace Style
 
-- Opt to dance like an Egyptian when placing braces.
+- Opt to ["Walk Like an Egyptian"](https://www.youtube.com/watch?v=Cv6tuzHUuuk) when placing braces.
 
 __BAD:__
 
@@ -116,7 +116,7 @@ class MyClass {
 
 # 3. When Statements
 
-- When you have if else conditions exceeding 2 conditions opt to using a `when` statment.
+- When you have if else conditions exceeding 2 conditions, opt to a `when` statment.
 - Separate cases using commas if they should be handled the same way. 
 - Always include the else case.
 
@@ -243,15 +243,15 @@ __GOOD:__
 
 ```kotlin
 fun longMethodName(
-    argument: ArgumentType = defaultValue,
-    argument2: AnotherArgumentType
-): ReturnType {
+    foo: String = "",
+    bar: Bar
+): String {
     // body
 }
 ```
 
-## 9.2 Expression body over expression blocks
-Prefer using an expression body for methods with the body consisting of a single expression.
+## 9.2 Expression bodies over expression blocks
+Prefer using an expression body for methods with the body consists of a single expression.
 
 __BAD:__
 
@@ -316,7 +316,7 @@ drawSquare(x = 10, y = 10, width = 100, height = 100, fill = true)
 
 
 # 10. Using Loops
-## 10.1 High Order 
+## 10.1 High Order first
 Prefer using higher-order functions like `filter` & `map` to loops
 
 __BAD:__
@@ -362,7 +362,7 @@ println("$name has ${children.size} children")
 ```
 
 ## 11.2 Multiline
-Prefer to use multiline strings instead of embedding \n escape sequences into regular string literals.
+Prefer to use multiline strings instead of embedding `\n` escape sequences into regular string literals.
 
 __BAD:__
 

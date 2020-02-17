@@ -1,9 +1,5 @@
 # Table of Contents  
 - [1. Naming](#1-naming)
-  - [1.1 Packages](#11-packages)
-  - [1.2 Classes & Interfaces](#12-classes--interfaces)
-  - [1.3 Methods](#13-methods)
-  - [1.4 Fields](#14-fields)
 - [2. Brace Style](#2-brace-style)
 - [3. Switch Statements](#3-switch-statements)
 - [4. Annotations](#4-annotations)
@@ -13,7 +9,7 @@
 # 1. Naming
 ## 1.1 Packages
 
-Package names are all __lower-camel-case__, multiple words concatenated together,
+Package names are all __lowercamelcase__, multiple words concatenated together,
 without
 hypens or underscores:
 
@@ -26,7 +22,7 @@ com.company.funky_widget
 __GOOD__:
 
 ```java
-com.company.funkyWidget
+com.company.funkywidget
 ```
 
 ## 1.2 Classes & Interfaces
@@ -36,8 +32,8 @@ Written in __UpperCamelCase__. For example `RadialSlider`.
 ## 1.3 Methods
 
 - Written in __lowerCamelCase__. For example `setValue`.
-- Always stating a verb indicating its intent `getFoo`, `setBar`, `changeFoo`
-- Method orders should go in override first and in alphabetical order
+- Always stating a verb indicating its intent `getFoo`, `setBar`, `changeFoo`.
+- Method orders should go in override first, visibility second (public to private), in alphabetical order.
 
 ## 1.4 Fields
 
@@ -133,10 +129,8 @@ class MyClass {
 
 # 3. Switch Statements
 
-Switch statements fall-through by default, but this can be unintuitive. If you
-require this behavior, comment it.
-
-Alway include the `default` case.
+Switch statements fall-through by default, but this can be unintuitive. If you require this behavior, comment it. <br>
+Alway include the `default` case. <br>
 
 __BAD:__
 
@@ -173,8 +167,7 @@ switch (anInput) {
 
 # 4. Annotations
 
-Standard annotations should be used - in particular `@Override`. This should
-appear the line before the function declaration.
+Standard annotations should be used - in particular `@Override`. This should appear the line before the function declaration.
 
 __BAD:__
 

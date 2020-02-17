@@ -77,7 +77,6 @@ class MyClass {
   companion object {
     const val SOME_CONSTANT = 42
   }
-
 }
 ```
 
@@ -158,7 +157,7 @@ when (anInput) {
 
 # 4. Visibility Modifiers
 
-- Only include visibility modifiers if you need something other than the default of public.
+Only include visibility modifiers if you need something other than the default of public.
 
 __BAD:__
 
@@ -176,7 +175,7 @@ private val bar = "bar"
 
 # 5. Prefer Data Classes
 
-- Prefer data classes for simple data holding objects.
+Prefer data classes for simple data holding objects.
 
 __BAD:__
 
@@ -196,13 +195,21 @@ data class Person(val name: String)
 
 # 6. Semicolons
 
-- Semicolons are dead to us should be avoided wherever possible in Kotlin.
+Semicolons should be avoided wherever possible.
 
 
 # 7. Getters & Setters
 
-- Unlike Java, direct access to fields in Kotlin is preferred.
+Unlike Java, direct access to fields in Kotlin is preferred.
 
+__BAD:__
+
+```kotlin
+val foo: String
+fun getFoo(): String = foo
+```
+
+__GOOD:__
 ```kotlin
 val foo: String
   get() { /*...*/ }
@@ -210,7 +217,7 @@ val foo: String
 
 # 8. Early returns
 
-- Always create local variables that need to be non-null and early return.
+Always create local variables against Optionals & early return.
 
 __BAD:__
 
@@ -232,8 +239,8 @@ fun foo() {
 ```
 
 # 9. Method Formatting
-
-- If the function signature doesn't fit on a single line, use the following syntax:
+## 9.1 Multiline signatures 
+If the function signature doesn't fit on a single line, use the following syntax:
 
 __GOOD:__
 
@@ -245,7 +252,9 @@ fun longMethodName(
     // body
 }
 ```
-- Prefer using an expression body for methods with the body consisting of a single expression.
+
+## 9.2 Expression body over expression blocks
+Prefer using an expression body for methods with the body consisting of a single expression.
 
 __BAD:__
 
@@ -261,9 +270,40 @@ __GOOD:__
 fun foo() = 1
 ```
 
+## 9.3 Return method blocks when possible
+__BAD:__
+
+```kotlin
+fun foo(anInput): Int {
+ when (anInput) {
+  "foo" -> return 3
+  "bar" -> return 5
+}
+```
+
+__BETTER:__
+
+```kotlin
+fun foo(anInput): Int {
+ return when (anInput) {
+  "foo" -> 3
+  "bar" -> 5
+}
+```
+
+__BEST:__
+
+```kotlin
+fun foo(anInput): Int =
+ when (anInput) {
+  "foo" -> 3
+  "bar" -> 5
+}
+```
+
 # 10. Named Arguments
 
-- Use the named argument syntax when a method takes multiple parameters, unless the meaning of all parameters is absolutely clear from context.
+Use the named argument syntax when a method takes multiple parameters, unless the meaning of all parameters is absolutely clear from context.
 
 __BAD:__
 
@@ -280,7 +320,8 @@ drawSquare(x = 10, y = 10, width = 100, height = 100, fill = true)
 
 # 11. Using Loops
 ## 11.1 High Order 
-- Prefer using higher-order functions like `filter` & `map` to loops
+Prefer using higher-order functions like `filter` & `map` to loops
+
 __BAD:__
 
 ```kotlin
@@ -296,7 +337,7 @@ bars.map { println("$it") }
 
 
 ## 11.2 Ranges
-- Use `until`  to loop over ranges:
+Use `until`  to loop over ranges:
 
 __BAD:__
 

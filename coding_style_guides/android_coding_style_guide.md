@@ -5,6 +5,7 @@
 - [4. Factory Methods](#4-factory-methods)
 - [5. Image Assets](#5-image-assets)
 - [6. Theme](#6-theme)
+- [7. Modules](#7-modules)
 
 # 1. Logging
 
@@ -53,9 +54,9 @@ Callback interfaces that should always be the last parameter.
 
 # 4. Factory Methods
 ## 4.1 Activity Factory Method
-Activities shouldn't have a launcher method that launch themselves. <br>
-Activity factory methods should create the Intent to launch it, usually called `getStartIntent()`. <br>
-Activity shouldn't expose its Extra keys, nor Result keys instead have static methods that utilize them accordingly. <br> 
+Activities shouldn't have launcher methods that launch themselves. <br>
+Activity factory methods should create `Intent`s that launch it such as `getStartIntent()`. <br>
+Activity shouldn't expose its `Extra` keys, nor `Result` keys instead rely on static methods that utilize them accordingly. <br> 
 
 ```java
  public static Intent getStartIntent(Context context, User user) {
@@ -92,9 +93,13 @@ public static UserFragment newInstance(User user) {
 # 5. Image Assets
 
 When possible use SVGs, which are then coverted to VectorDrawables, over PNGs. <br>
-Should you use PNG try providing all sizes for it `mdpi`, `hpdi`, `xhpdi`, etc. <br>
+Should you have to use PNGs try providing all sizes for it `mdpi`, `hpdi`, `xhpdi`, etc. <br>
 
 # 6. Theme
 
 Opt to use an app wide theme for coloring all widgets in the application. <br>
 It may be harder to define all colors, but saves development time down the line. <br>
+
+# 7. Modules
+
+Create modules with clear dependencies, especially when dependencies are metaphorically apparant.

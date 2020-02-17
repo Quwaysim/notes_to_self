@@ -1,14 +1,14 @@
 # Table of Contents  
-- [1. Naming](#1-naming)
-  - [1.1 Packages](#11-packages)
-  - [1.2 Classes & Interfaces](#classes--interfaces)
-  - [1.3 Methods](#methods)
-  - [1.4 Fields](#fields)
-- [2. Brace Style](#brace-style)
-- [3. Switch Statements](#switch-statements)
-- [4. Annotations](#annotations)
-- [5. Final when final](#final-when-final)
-- [6. Protect your fields](#protect-your-fields)
+[1. Naming](#1-naming)
+  [1.1 Packages](#11-packages)
+  [1.2 Classes & Interfaces](#classes--interfaces)
+  [1.3 Methods](#methods)
+  [1.4 Fields](#fields)
+[2. Brace Style](#brace-style)
+[3. Switch Statements](#switch-statements)
+[4. Annotations](#annotations)
+[5. Final when final](#final-when-final)
+[6. Protect your fields](#protect-your-fields)
 
 ## 1. Naming
 ### 1.1 Packages

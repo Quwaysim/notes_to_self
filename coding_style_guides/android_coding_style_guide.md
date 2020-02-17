@@ -32,14 +32,15 @@ Wrap all logging methods such that VERBOSE and DEBUG logs are disabled on releas
 
 # 2. Class member ordering
 
-1. Constants (sorted visibility)
-2. Fields (sorted visibility)
+1. Constants (sorted by visibility)
+2. Fields (sorted by visibility)
 3. Constructors
 4. Override lifecycle methods (sorted chronologically)
-5. Public methods
-6. Private methods
-7. Click listener implementation
-8. Inner classes or interfaces
+5. Override methods (sorted by interface)
+6. Public methods
+7. Private methods
+8. Click listener implementation
+9. Inner classes or interfaces
 
 # 3. Parameter Ordering
 
@@ -52,9 +53,9 @@ Callback interfaces that should always be the last parameter.
 
 # 4. Factory Methods
 ## 4.1 Activity Factory Method
-Activities shouldn't have a launcher method that launch themselves.
-Activity factory methods should create the Intent to launch it, usually called `getStartIntent()`
-Activity shouldn't expose its Extra keys, nor Result keys instead have static methods that utilize them accordingly. 
+Activities shouldn't have a launcher method that launch themselves. <br>
+Activity factory methods should create the Intent to launch it, usually called `getStartIntent()`. <br>
+Activity shouldn't expose its Extra keys, nor Result keys instead have static methods that utilize them accordingly. <br> 
 
 ```java
  public static Intent getStartIntent(Context context, User user) {
@@ -65,8 +66,8 @@ Activity shouldn't expose its Extra keys, nor Result keys instead have static me
 ``` 
 
 ## 4.2 Fragment Factory Method
-Fragment shouldn't expose its Argument keys, nor Result keys. 
-Fragments should include `newInstance()` that handles the creation of the Fragment with the right arguments:
+Fragment shouldn't expose its Argument keys, nor Result keys. <br>
+Fragments should include `newInstance()` that handles the creation of the Fragment with the right arguments: <br>
 
 ```java
 public static UserFragment newInstance(User user) {
@@ -90,10 +91,10 @@ public static UserFragment newInstance(User user) {
 
 # 5. Image Assets
 
-When possible use SVGs, which are then coverted to VectorDrawables, over PNGs.
-Should you use PNG try providing all sizes for it `mdpi`, `hpdi`, `xhpdi`, etc.
+When possible use SVGs, which are then coverted to VectorDrawables, over PNGs. <br>
+Should you use PNG try providing all sizes for it `mdpi`, `hpdi`, `xhpdi`, etc. <br>
 
 # 6. Theme
 
-Opt to use an app wide theme for coloring all widgets in the application.
-It may be harder to define all colors, but saves development time down the line.
+Opt to use an app wide theme for coloring all widgets in the application. <br>
+It may be harder to define all colors, but saves development time down the line. <br>

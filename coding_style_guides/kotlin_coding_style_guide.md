@@ -37,9 +37,9 @@ Written in __UpperCamelCase__. For example `RadialSlider`.
 ## 1.3 Methods
 
 - Written in __lowerCamelCase__. For example `setValue`.
-- Always stating a verb indicating its intent `getFoo`, `setBar`, `changeFoo`.
-- Method orders should go in override first and in alphabetical order.
-- Ought to always explicitly declare return type.
+- State verb indicating intent `getFoo`, `setBar`, `changeFoo`.
+- Method orders go in override first, visibility second, in alphabetical order respectively.
+- Explicitly declare return type at all times.
 
 ## 1.4 Fields
 
@@ -257,7 +257,7 @@ Prefer using an expression body for methods with the body consists of a single e
 __BAD:__
 
 ```kotlin
-fun foo(): Int {
+fun foo() {
     return 1 
 }
 ```
@@ -265,7 +265,7 @@ fun foo(): Int {
 __GOOD:__
 
 ```kotlin
-fun foo() = 1
+fun foo(): Int = 1
 ```
 
 ## 9.3 Return method blocks concisely
@@ -395,7 +395,7 @@ __GOOD:__
 if (foo) bar()
 ```
 
-Never put a space around `.` or `?.`
+Never put a space around `.` or `?.`.
 
 __BAD:__
 
@@ -409,7 +409,7 @@ __GOOD:__
 foo?.bar()
 ```
 
-Put a space after `//`: 
+Put a space after `//`.
 
 __GOOD:__
 

@@ -241,9 +241,9 @@ __GOOD:__
 ```java
 import foo.Bar;
 ```
-# 9 Exceptions
+# 9. Exceptions
 
-Don't catch generic exceptions
+Don't catch generic exceptions.
 
 __BAD:__
 

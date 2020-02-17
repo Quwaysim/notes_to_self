@@ -248,7 +248,7 @@ __GOOD:__
 __Rationale:__
 Adding unique root view ids is immensely helpful when debugging using the `Layout Inspector`.
 
-# 8 Closing Tags
+# 8. Closing Tags
 
 When an XML element doesn't have any contents, use self closing tags.
 
@@ -269,10 +269,10 @@ __GOOD:__
     android:layout_height="wrap_content" />
 ```
 
-# 9 Attributes Ordering
-1. View Id
-2. Layout width and layout height
-3. `android:` attributes, sorted alphabetically
-4. `app:` attributes, sorted alphabetically
-5. Style
-6. Tools
+# 9. Attributes Ordering
+1. View Id.
+2. Layout width and layout height.
+3. `android:` attributes, sorted alphabetically.
+4. `app:` attributes, sorted alphabetically.
+5. Style.
+6. `tools:`.

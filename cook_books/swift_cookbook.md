@@ -1,5 +1,4 @@
-Access Control:
-================
+# Access Control
 - internal - this is the default  <br>
 - private <br>
 - private(set) : getting it fine by others, but setting it is private <br>
@@ -7,8 +6,51 @@ Access Control:
 - public: can be used by objects out of framework <br>
 - open: public objects can subclass <br>
 
-Array:
-=======
+# Arrays
+## Creation
+```swift
+var techTickerSet = Set<String>() // Empty
+
+var empty:[Int] = []
+
+var numbers = ["one", "two", "three","one"]  // Mutable
+
+let numbers = Array(1...10) // 1 through 10
+
+let numbers9 = Array(1..<10) // 1 through 9
+
+let numbers0_9 = [Int](0..<10)
+
+var numbers = Array(repeating: 0, count: 100)
+
+var emptyStrArray = Array(repeating: "", count: 100)
+
+let multDim:[[Int]] = [[1,2,3], [4,5,6], [7,8,9]]
+```
+
+## Access
+```swift
+array.first // nil if empty
+
+array[0] // Error if empty
+
+if array.contains("three") {
+
+}
+
+array.index(of: "one")
+
+let x = array.index(where: {$0 > 10}) // finds first value matching
+```
+
+## Sort
+```swift
+let sortedArray = array.sorted()
+
+let reversed =  array.sorted(by: >)
+```
+
+# For
 ```swift
 for (index, item) in array.enumerated() {
     array[index] = "foo"
@@ -17,26 +59,27 @@ for index in 0...10 {
     
 }
 
+for i in 0..<10 {
+
+}
+
 for i in stride(from: 0.5, through: 15.24, by: 0.3) {
     
 }
 ```
 
-Any
-===
+# Any
 - used for backward compatibility <br>
 - Any & AnyObject(for classes only) <br>
 
-Casting
-========
+# Casting
 ```swift
 if let foo = unknownType as? Type {
    foo.bar()
 }
 ```
 
-Computed Properties:
-==================
+# Computed Properties:
 ```swift
 var foo: Double {
     	 get {
@@ -48,8 +91,7 @@ var foo: Double {
 }
 ```
 
-Closure
-========
+# Closure
 Reference Type ~ Meaning scoped variables will too be referenced in the heap, meaning you need to be careful of those variables later changing <br>
 	       ~ Also means if your closure references the class it's in, it can cause a memory cycle/leak that  <br>can be avoided with `unowned` access <br>
 
@@ -72,18 +114,71 @@ let negativeNumbers = numbers.map() { -$0 }  // trailing closures
 let negativeNumbers = numbers.map{ -$0 } // sole closure
 ```
 
-Data
-=====
+# Data
 bag of bits object <br>
 
-Error
-=====
+# Dictionary
+## Creation
+```swift
+var dictionary:[String:String] = [:] 
+
+dictionary = ["foo": "bar",
+              "bar": "foo"]
+
+let dictionary = ["foo": 200, "bar": 50]
+```
+
+## Access
+```swift
+let keyCount = dictionary.count
+
+dictionary.keys // all keys
+
+let value = dictionary["key"]!
+
+if let value = dictionary["key"] {
+
+}
+
+for (key, value) in dictionary.sorted(by: { $0.0 < $1.0 }) {
+    print("=>\(key), \(value)")
+
+}
+```
+
+## Modify
+```swift
+dictionary["key"] = "value"
+dictionary.updateValue("value", forKey: "key")
+dictionary.removeValue(forKey: "key")
+dictionary.removeAll()
+```
+
+# Error
 ```swift
 fatalError("new run time error")
 ```
 
-Guard:
-======
+# Functional
+## map
+``swift
+```
+## map
+```swift
+[1,2,3].map {$0 * 2}
+```
+
+## forEach
+```swift
+[fooView, barView].forEach (view.addSubview) 
+```
+
+## map
+``swift
+```
+
+
+# Guard
 ```swift
 guard let currentValue = foo ?? bar else { return }
 guard position > 0 else { return }
@@ -91,8 +186,7 @@ if let foo = bar {
 }
 ```
 
-Enum:
-======
+# Enum
 ```swift
 enum FastFoodMenuItem {
      case hamburger(numberOfPatties: Int)
@@ -130,14 +224,12 @@ let ordinal = currentReportingInterval.rawValue
 let nextReportingInterval = ReportingIntervals.getPositionOf(ordinal + 1)
 ```
 
-Variable Reference:
-===================
+# Variable Reference
 strong foo: Bar? // normal reference counter <br>
 weak foo: Bar? // don't keep in heap in my counter <br>
 unowned // keep reference but doesn't up count, meant to break memory cycle of referencing foo <=> bar <br>
 
-Protocol:
-=========
+# Protocol
 ```swift
 protocol FooProtocol : class, BarProtocol { // makes class only protocol
 	 var fooProperty: Int { get, set }
@@ -172,16 +264,58 @@ extension  FooProtocol {
 }
 ```
 
-String
-=======
-var index = "Foo".startIndex // return String.Index and not an Int <br>
-Strings are arrays of Characters <br>
-Indexing Strings return unicode <br>
+# Strings
+- Strings are arrays of Characters <br>
+- Indexing Strings return unicode <br>
+## Creation
+
+```swift
+let str = """
+some 
+multiline
+string
+"""
+```
+
+## Accessors
+```swift
+var index = "Foo".startIndex // return String.Index and not an Int
 `print("Card number: \(cardNumber)")` <br>
 
+let stringLength = str.count
 
-Switch:
-=======
+for character in "hello world" {
+    print(character)
+}
+```
+
+## Comparison
+```swift
+if str == "Hello world" {
+    print("Strings are Equal")
+}
+if str.caseInsensitiveCompare("Hello world") == .orderedSame { // NSComparisonResult
+    print("Strings are equal")
+}
+```
+
+## Modify
+```swift
+str.append('a')
+
+let array = csv.components(separatedBy: ",")
+let csv = row.replacingOccurrences(of: " ", with: ",") // import Foundation
+
+url.hasPrefix("https:")
+url.hasSuffix("/")
+
+var blogTitle = "  Swift Cookbook  ".trimmingCharacters(in: NSCharacterSet.whitespaces)
+
+let capitalized = str.capitalized
+let localizedCapitalized = str.localizedCapitalized
+```
+
+# Switch
 ```swift
 subscript<T>(dynamicMember member: KeyPath<B, T>) -> String? {
     switch T.self {
@@ -195,27 +329,23 @@ subscript<T>(dynamicMember member: KeyPath<B, T>) -> String? {
 }
 ```
 
-Structs:
-========
+# Structs
 final, can't inherit <br>
 By Value, they copy on write <br>
 Ints, Strings, Dictionaries are structs <br>
 val someStruct = otherStruct // is a copy <br>
 
-Tuple:
-========
+# Tuple
 like a struct <br>
 kinda like a data class in kotlin <br>
 
 
-Target-action
-==============
+# Target-action
 - selector: identifies the method to be invoked
 - action-message: message to send
 - target: the object to receive the message
 
-Try
-===
+# Try
 ```
 do {
    try someThrowingMethod() // all throwable methods need a try
@@ -228,12 +358,10 @@ try! someThrowingMethod()
 let x = try? someThrowingMethod()
 ```
 
-NSAttributedString
-==================
+# NSAttributedString
 ObjC class, that allows a string be rich with attributes. <br>
 
-NSRange
-=======
+# NSRange
 To apply attributes to a subset of characters within a string <br>
 let pizzaJoint - "Cafe pesto" <br>
 cat attrString = NSMutableAttributedString(string: pizzaJoint) <br>
@@ -241,6 +369,5 @@ let firstWordRange = pizzaJoint.startIndex..<pizzaJoint.indexOf(" ")! <br>
 let nsrange - NSRange(firstWordRange, in: pizzaJoint) // convert Range<String.Index> <br>
 attrString.addAttribute(.strokeColor, value: UiColor.orange, range: nsrange) <br>
 
-NSObject
-========
+# NSObject
 Root object for all objc objects <br>

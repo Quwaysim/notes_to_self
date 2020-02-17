@@ -44,6 +44,7 @@ Naming conventions for selector states:
 
 - Suffix type
 - Are camelCased.
+
 | Type           | Suffix          | Example                     |
 |--------------|-----------------|-----------------------------|
 | Button       | `Button`       | `submitSchedulesButton`    |
@@ -159,14 +160,16 @@ The following views needs these attributes defined either explicitly or by refer
 
 Wherever possible XML resource files should be used:
 
-- Animations => `res/anim/`
-- Arrays => `res/values/arrays.xml`
-- Colors => `res/color/colors.xml`
-- Drawable => `res/drawable`
-- Floats => `res/values/floats.xml`
-- Integers => `res/values/integers.xml`
-- Strings => `res/values/strings.xml`
-- Styles => `res/values/styles.xml`
+| Type           | Folder          |
+|--------------|-----------------|
+| Animations       | `res/anim/`       |
+| Arrays       | `res/values/arrays.xml`       |
+| Colors       | `res/color/colors.xml`       |
+| Drawable       | `res/drawable`       |
+| Floats       | `res/values/floats.xml`       |
+| Integers       | `res/values/integers.xml`       |
+| Strings       | `res/values/strings.xml`       |
+| Styles       | `res/values/styles.xml`        |
 
 ## 6.2 Constants as Resources 
 Resources can store more than `strings`, `dimens`, & `colors`; they too can store `floats` & `integers` that can be used within the app as constants. 

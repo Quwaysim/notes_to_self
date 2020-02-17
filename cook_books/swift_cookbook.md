@@ -1,10 +1,10 @@
 # Access Control
-- internal - this is the default  <br>
-- private <br>
-- private(set) : getting it fine by others, but setting it is private <br>
-- fileprivate : accessible by source file only <br>
-- public: can be used by objects out of framework <br>
-- open: public objects can subclass <br>
+- `internal` - this is the default  <br>
+- `private` <br>
+- `private(set)` : getting it fine by others, but setting it is private <br>
+- `fileprivate`: accessible by source file only <br>
+- `public`: can be used by objects out of framework <br>
+- `open`: public objects can subclass <br>
 
 # Arrays
 ## Creation
@@ -55,6 +55,7 @@ let reversed =  array.sorted(by: >)
 for (index, item) in array.enumerated() {
     array[index] = "foo"
 }
+
 for index in 0...10 {
     
 }
@@ -82,12 +83,12 @@ if let foo = unknownType as? Type {
 # Computed Properties:
 ```swift
 var foo: Double {
-    	 get {
+    get {
 
-	     }
-		set(newValue) {
+    }
+    set(newValue) {
 
-			      }
+    }
 }
 ```
 
@@ -250,8 +251,8 @@ Cool to implement: <br>
      - Collection, foo[4] <br>
 ```swift
 extension  FooProtocol {
-	   var fooProperty = 5
-	   // default implementation
+    var fooProperty = 5
+    // default implementation
 
 }
 ```
@@ -272,7 +273,7 @@ string
 ## Accessors
 ```swift
 var index = "Foo".startIndex // return String.Index and not an Int
-`print("Card number: \(cardNumber)")` <br>
+print("Card number: \(cardNumber)")` <br>
 
 let stringLength = str.count
 
@@ -338,7 +339,7 @@ kinda like a data class in kotlin <br>
 - target: the object to receive the message
 
 # Try
-```
+```swift
 do {
    try someThrowingMethod() // all throwable methods need a try
 } catch let error {
@@ -355,11 +356,13 @@ ObjC class, that allows a string be rich with attributes. <br>
 
 # NSRange
 To apply attributes to a subset of characters within a string <br>
-let pizzaJoint - "Cafe pesto" <br>
-cat attrString = NSMutableAttributedString(string: pizzaJoint) <br>
-let firstWordRange = pizzaJoint.startIndex..<pizzaJoint.indexOf(" ")! <br>
-let nsrange - NSRange(firstWordRange, in: pizzaJoint) // convert Range<String.Index> <br>
-attrString.addAttribute(.strokeColor, value: UiColor.orange, range: nsrange) <br>
+```swift
+let pizzaJoint = "Cafe pesto"
+cat attrString = NSMutableAttributedString(string: pizzaJoint)
+let firstWordRange = pizzaJoint.startIndex..<pizzaJoint.indexOf(" ")!
+let nsrange = NSRange(firstWordRange, in: pizzaJoint) // convert Range<String.Index>
+attrString.addAttribute(.strokeColor, value: UiColor.orange, range: nsrange)
+```
 
 # NSObject
 Root object for all objc objects <br>

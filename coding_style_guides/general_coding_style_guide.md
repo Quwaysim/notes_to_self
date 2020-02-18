@@ -35,7 +35,6 @@ __GOOD__:
 ## 1.2 Regular Comments
 - Comments should not state the obvious.
 - Comments should state why we're doing something strange.
-- Prefer methods and variables over comments
 
 __BAD__:
 
@@ -51,6 +50,25 @@ __GOOD__:
 val fullName = fullNameEditText.text.capitalized()
 ```
 
+Prefer methods and variables over comments.
+
+__BAD__:
+
+```kotlin
+// checks to see if using secure url
+if (url.startsWith("https://")) {
+```
+
+__GOOD__:
+
+```kotlin
+if (isSecureUrl(url)) {
+ // ..
+}
+
+fun isSecureUrl(url: String) = url.startsWith("https://")
+```
+
 # 2. TODOs
 - TODOs shouldn't be placed at all costs, instead done there an then if possible. <br>
 - If placed, it's best to place a ticket id alongside it. <br>
@@ -64,7 +82,7 @@ val fullName = fullNameEditText.text.capitalized()
 
 # 4. Derive Values
 
-- Avoid hardcoding values and prefer deriving them.
+Avoid hardcoding values and prefer deriving them.
 
 __BAD__:
 
@@ -133,7 +151,7 @@ val MONDAY = 1
 val TUESDAY = 2
 ...
 
-println("Monday's day of the week is: $MONDAY")
+print("Monday's day of the week is: $MONDAY")
 ```
 
 __GOOD__:
@@ -143,5 +161,5 @@ enum class DaysOfWeek(val dayOfWeek: Int, val name) {
   MONDAY(1, "Monday"), TUESDAY(2, "Tuesday"), ...
 }
 
-println("${MONDAY.name}'s day of the week is: ${MONDAY.dayOfWeek}")
+print("${MONDAY.name}'s day of the week is: ${MONDAY.dayOfWeek}")
 ```

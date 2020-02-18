@@ -1,3 +1,6 @@
+## Ad Blocker
+- [Wipr](https://apps.apple.com/us/app/wipr/id1320666476?mt=12)
+
 ## Android
 
 - [PixelMate](https://github.com/eladnava/pixelmate): File transfer alternative.
@@ -16,7 +19,8 @@ https://en.freedownloadmanager.org/Mac-OS/CHM-View.html
 
 ## Diff Utility
 
-[DiffMerge](https://www.sourcegear.com/diffmerge/downloaded.php)
+- [DiffMerge](https://www.sourcegear.com/diffmerge/downloaded.php)
+- [Kaleidoscope](https://www.kaleidoscopeapp.com)
 
 ## FFView
 
@@ -50,6 +54,8 @@ https://download.cnet.com/FFView/3000-18488_4-50312.html
 
 - [Spectacle](https://www.spectacleapp.com): Spectacle allows you to organize your windows without using a mouse
 
+- [Moom](https://manytricks.com/moom/): Windows organizer
+
 - [Similar Photos Cleaner](https://itunes.apple.com/us/app/similar-photos-cleaner/id1333523703): Duplicate photo cleaner tool for your Mac.
 
 - [Duplicate Photos Fixer Pro](https://apps.apple.com/us/app/duplicate-photos-fixer-pro/id963642514?mt=12)
@@ -70,6 +76,8 @@ https://download.cnet.com/FFView/3000-18488_4-50312.html
 
 - [Blue Griffon](http://bluegriffon.org)
 
+## Note Taker
+- [OmniFocus 2](https://www.omnigroup.com/omnifocus)
 
 ## Photo Editing
 

@@ -1,11 +1,3 @@
-# Access Control
-- `internal` - this is the default  <br>
-- `private` <br>
-- `private(set)` : getting it fine by others, but setting it is private <br>
-- `fileprivate`: accessible by source file only <br>
-- `public`: can be used by objects out of framework <br>
-- `open`: public objects can subclass <br>
-
 # Arrays
 ### Creation
 ```swift
@@ -367,3 +359,12 @@ var foo: Double {
     }
 }
 ```
+
+### Visibility
+- `internal` - this is the default  <br>
+- `private` <br>
+- `private(set)` : getting it fine by others, but setting it is private <br>
+- `fileprivate`: accessible by source file only <br>
+- `public`: can be used by objects out of framework <br>
+- `open`: public objects can subclass <br>
+

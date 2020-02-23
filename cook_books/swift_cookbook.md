@@ -80,18 +80,6 @@ if let foo = unknownType as? Type {
 }
 ```
 
-# Computed Properties:
-```swift
-var foo: Double {
-    get {
-
-    }
-    set(newValue) {
-
-    }
-}
-```
-
 # Closure
 Reference Type ~ Meaning scoped variables will too be referenced in the heap, meaning you need to be careful of those variables later changing <br>
 	       ~ Also means if your closure references the class it's in, it can cause a memory cycle/leak that  <br>can be avoided with `unowned` access <br>
@@ -217,10 +205,21 @@ let ordinal = currentReportingInterval.rawValue
 let nextReportingInterval = ReportingIntervals.getPositionOf(ordinal + 1)
 ```
 
-# Variable Reference
-`strong foo: Bar?` // normal reference counter <br>
-`weak foo: Bar?` // don't keep in heap in my counter <br>
-`unowned` // keep reference but doesn't up count, meant to break memory cycle of referencing foo <=> bar <br>
+# NSAttributedString
+ObjC class, that allows a string be rich with attributes. <br>
+
+# NSRange
+To apply attributes to a subset of characters within a string <br>
+```swift
+let pizzaJoint = "Cafe pesto"
+cat attrString = NSMutableAttributedString(string: pizzaJoint)
+let firstWordRange = pizzaJoint.startIndex..<pizzaJoint.indexOf(" ")!
+let nsrange = NSRange(firstWordRange, in: pizzaJoint) // convert Range<String.Index>
+attrString.addAttribute(.strokeColor, value: UiColor.orange, range: nsrange)
+```
+
+# NSObject
+Root object for all objc objects <br>
 
 # Protocol
 ```swift
@@ -351,18 +350,20 @@ try! someThrowingMethod()
 let x = try? someThrowingMethod()
 ```
 
-# NSAttributedString
-ObjC class, that allows a string be rich with attributes. <br>
+# Variables
+### Reference
+`strong foo: Bar?` // normal reference counter <br>
+`weak foo: Bar?` // don't keep in heap in my counter <br>
+`unowned` // keep reference but doesn't up count, meant to break memory cycle of referencing foo <=> bar <br>
 
-# NSRange
-To apply attributes to a subset of characters within a string <br>
+### Computed Properties
 ```swift
-let pizzaJoint = "Cafe pesto"
-cat attrString = NSMutableAttributedString(string: pizzaJoint)
-let firstWordRange = pizzaJoint.startIndex..<pizzaJoint.indexOf(" ")!
-let nsrange = NSRange(firstWordRange, in: pizzaJoint) // convert Range<String.Index>
-attrString.addAttribute(.strokeColor, value: UiColor.orange, range: nsrange)
-```
+var foo: Double {
+    get {
 
-# NSObject
-Root object for all objc objects <br>
+    }
+    set(newValue) {
+
+    }
+}
+```

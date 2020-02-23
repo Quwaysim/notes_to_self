@@ -7,7 +7,7 @@
 - `open`: public objects can subclass <br>
 
 # Arrays
-## Creation
+### Creation
 ```swift
 var techTickerSet = Set<String>() // Empty
 
@@ -28,7 +28,7 @@ var emptyStrArray = Array(repeating: "", count: 100)
 let multDim:[[Int]] = [[1,2,3], [4,5,6], [7,8,9]]
 ```
 
-## Access
+### Access
 ```swift
 array.first // nil if empty
 
@@ -43,7 +43,7 @@ array.index(of: "one")
 let x = array.index(where: {$0 > 10}) // finds first value matching
 ```
 
-## Sort
+### Sort
 ```swift
 let sortedArray = array.sorted()
 
@@ -119,7 +119,7 @@ let negativeNumbers = numbers.map{ -$0 } // sole closure
 bag of bits object <br>
 
 # Dictionary
-## Creation
+### Creation
 ```swift
 var dictionary:[String:String] = [:] 
 
@@ -129,7 +129,7 @@ dictionary = ["foo": "bar",
 let dictionary = ["foo": 200, "bar": 50]
 ```
 
-## Access
+### Access
 ```swift
 let keyCount = dictionary.count
 
@@ -147,7 +147,7 @@ for (key, value) in dictionary.sorted(by: { $0.0 < $1.0 }) {
 }
 ```
 
-## Modify
+### Modify
 ```swift
 dictionary["key"] = "value"
 dictionary.updateValue("value", forKey: "key")
@@ -260,7 +260,7 @@ extension  FooProtocol {
 # Strings
 - Strings are arrays of Characters <br>
 - Indexing Strings return unicode <br>
-## Creation
+### Creation
 
 ```swift
 let str = """
@@ -270,7 +270,7 @@ string
 """
 ```
 
-## Accessors
+### Accessors
 ```swift
 var index = "Foo".startIndex // return String.Index and not an Int
 print("Card number: \(cardNumber)")` <br>
@@ -282,7 +282,7 @@ for character in "hello world" {
 }
 ```
 
-## Comparison
+### Comparison
 ```swift
 if str == "Hello world" {
     print("Strings are Equal")
@@ -292,7 +292,7 @@ if str.caseInsensitiveCompare("Hello world") == .orderedSame { // NSComparisonRe
 }
 ```
 
-## Modify
+### Modify
 ```swift
 str.append('a')
 

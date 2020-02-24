@@ -11,3 +11,5 @@
 [Client Engines](https://ktor.io/clients/http-client/engines.html)
 
 [Logging](https://stackoverflow.com/questions/53168116/how-to-log-requests-in-ktor-http-client)
+
+[Quick Tutorial Kconf](https://www.youtube.com/watch?v=SOPEc8JnFl4&list=PLQ176FUIyIUY6SKGl3Cj9yeYibBuRr3Hl&index=6)

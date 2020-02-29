@@ -35,6 +35,10 @@ https://download.cnet.com/FFView/3000-18488_4-50312.html
 - [AppCode](https://www.jetbrains.com/objc/): A smarter IDE for iOS/macOS development 
 - [Visual Studio](https://code.visualstudio.com): Good for web development.
 
+## Git
+- [SourceTree](https://www.sourcetreeapp.com)
+- [Tower](https://www.git-tower.com/mac)
+- [Github Desktop](https://desktop.github.com)
 
 ## Mac Productivity Apps
 

@@ -8,6 +8,7 @@
 - [7. Debug Friendly](#7-debug-friendly)
 - [8. Closing Tags](#8-closing-tags)
 - [9. Attribute Ordering](#9-attribute-ordering)
+- [10. Id Creation](#10-id-creation)
 
 # 1. Naming
 
@@ -290,3 +291,8 @@ __GOOD:__
 4. `app:` attributes, sorted alphabetically.
 5. Style.
 6. `tools:` attributes, sorted alphabetically.
+
+# 10. Id Creation
+- Only create view ids under following circumstances:
+  - When referenced from Java/Kotlin code.
+  - When needing to place a constraint against another View that's yet defined.

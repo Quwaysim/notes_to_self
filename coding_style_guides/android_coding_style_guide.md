@@ -6,6 +6,8 @@
 - [5. Image Assets](#5-image-assets)
 - [6. Theme](#6-theme)
 - [7. Modules](#7-modules)
+- [8. Lifecycles](#8-lifecycles)
+- [9. RecyclerViews](#9-recyclerviews)
 
 # 1. Logging
 
@@ -28,6 +30,8 @@ public class Foo {
     }
 }
 ```
+
+Never use `e.printStackTrace` when logging.
 
 Wrap all logging methods such that VERBOSE and DEBUG logs are disabled on release builds.
 
@@ -104,3 +108,15 @@ It may be harder to define all colors, but saves development time down the line.
 # 7. Modules
 
 Create modules with clear dependencies, especially when dependencies are metaphorically apparant.
+
+# 8. Lifecycles
+
+- Understand [Android Lifecycles](https://developer.android.com/guide/components/activities/activity-lifecycle) and follow them accordingly.
+- Avoid adding fragments using `commitAllowingStateLoss`.
+- Subscribe & unsubscribe in the right places.
+
+# 9. RecyclerViews
+
+- Ensure related ItemView holders are their own classes.
+- Use DiffUtil where appropriate.
+- Ensure adapter is free of business logic.

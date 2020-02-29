@@ -7,6 +7,7 @@
 - [6. Single Purpose Files](#6-single-purpose-files)
 - [7. No-ops](#7-no-ops)
 - [8. Call a spade a spade](#8-call-a-spade-a-spade)
+- [9. Naming](#9-naming)
 
 # 1. Comments
 ## 1.1 File Headers
@@ -68,6 +69,8 @@ if (isSecureUrl(url)) {
 
 fun isSecureUrl(url: String) = url.startsWith("https://")
 ```
+
+Avoid leaving commented out code. In rare circumstances leave TODOs along with it.
 
 # 2. TODOs
 - TODOs shouldn't be placed at all costs, instead done there an then if possible. <br>
@@ -163,3 +166,12 @@ enum class DaysOfWeek(val dayOfWeek: Int, val name) {
 
 print("${MONDAY.name}'s day of the week is: ${MONDAY.dayOfWeek}")
 ```
+
+# 9. Naming
+## 9.1 Classes
+- Keep free of abbreviations.
+- Keep free of domain/company specific suffixes.
+
+## 9.2 Methods
+- Name indicates action.
+- Name begins with a verb: `is`, `get`, `set`, etc.

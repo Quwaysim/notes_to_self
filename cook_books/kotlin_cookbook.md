@@ -4,6 +4,7 @@
 - [3. Generics](#3-generics)
 - [4. Scopes](#4-scopes)
 - [5. This](#5-this)
+- [6. Elvis Operator](#6-elvis-operator)
 
 # 1. Constructors
 ```kotlin
@@ -68,4 +69,11 @@ for ((index, element) in stockPrices.iterator().withIndex()) {
 foo.apply {
   this.bar = this@OuterClass.bar
 }
+```
+
+# 6. Elvis Operator
+```kotlin
+val foo = bar ?: {
+  ...
+}.run()
 ```

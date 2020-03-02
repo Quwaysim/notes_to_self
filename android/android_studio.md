@@ -15,7 +15,7 @@
      - `hw.audioOutput=no`
 
 - Update LogCat color Scheme:
-  - Download [color scheme.](https://github.com/seljabali/notes_to_self/blob/master/Darcula.icls)
+  - Download [color scheme.](https://github.com/seljabali/notes_to_self/blob/master/files/Darcula.icls)
   - Apply in `Preferences`->`Android LogCat`->`Scheme`->`Import Scheme`
 
 - Add Coding Style

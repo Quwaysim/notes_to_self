@@ -68,13 +68,12 @@ __GOOD__:
 
 ```kotlin
 class MyClass {
-  val fooField = 5
-  val barField: Int = "foo".length  
-  lateinit var someUrl: String
-  
   companion object {
     const val SOME_CONSTANT = 42
   }
+  val fooField = 5
+  val barField: Int = "foo".length  
+  lateinit var someUrl: String
 }
 ```
 
@@ -279,7 +278,7 @@ fun foo(anInput): Int {
 }
 ```
 
-__BETTER:__
+__BAD:__
 
 ```kotlin
 fun foo(anInput): Int {

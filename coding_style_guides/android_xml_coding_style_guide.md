@@ -179,44 +179,12 @@ Wherever possible XML resource files should be used:
 | Animations       | `res/anim/`       |
 | Arrays       | `res/values/arrays.xml`       |
 | Colors       | `res/color/colors.xml`       |
+| Dimens       | `res/values/dimens.xml`       |
 | Drawable       | `res/drawable`       |
 | Floats       | `res/values/floats.xml`       |
 | Integers       | `res/values/integers.xml`       |
 | Strings       | `res/values/strings.xml`       |
 | Styles       | `res/values/styles.xml`        |
-
-## 6.2 Constants as Resources 
-Resources can store more than `strings`, `dimens`, & `colors`; they too can store `floats` & `integers` that can be used within the app as constants. 
-
-__BAD:__
-```java
-RxTextView.textChanges(searchTextView)
-    .debounce(100, TimeUnit.MILLISECONDS)
-```
-
-__BETTER:__
-```java
-public static final int SEARCH_TYPE_WAIT_MS = 100;
-...
-RxTextView.textChanges(searchTextView)
-    .debounce(SEARCH_TYPE_WAIT_MS, TimeUnit.MILLISECONDS)
-```
-
-__BEST:__
-```java
-@BindInt(R.integers.search_type_wait_ms) int SEARCH_TYPE_WAIT_MS;
-...
-RxTextView.textChanges(searchTextView)
-    .debounce(SEARCH_TYPE_WAIT_MS, TimeUnit.MILLISECONDS)
-```
-```xml
-<!-- integers.xml -->
-<integer name="search_type_wait_ms">100</integer>
-```
-__Rationale:__ <br>
-- Notice now `search_type_wait_ms` can now be reused across different pages with its location not as ambiguous than say the first page to ever define it in Java/Kotlin.
-- Resource files are now more so a place to configure the application.
-
 
 # 7. Debug Friendly
 ## 7.1 Tools Attributes 

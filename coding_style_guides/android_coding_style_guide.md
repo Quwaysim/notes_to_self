@@ -45,7 +45,6 @@ Wrap all logging methods such that VERBOSE and DEBUG logs are disabled on releas
 6. Public methods.
 7. Private methods.
 8. Click listener implementation.
-9. Inner classes or interfaces.
 
 # 3. Parameter Ordering
 

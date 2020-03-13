@@ -12,7 +12,6 @@
 # 1. Comments
 ## 1.1 File Headers
 - Headers should not contain author nor dates; we have source control for that. <br>
-- Copyright & its year should be placed. <br>
 - Basic description can be provided if necessary. <br>
 
 __BAD__:
@@ -29,7 +28,7 @@ __GOOD__:
 
 ```kotlin
 /*
- * Copyright (c) 2020 Kaiser Permanente. All rights reserved.
+ * This class does foo when bar.
  */
 ```
 

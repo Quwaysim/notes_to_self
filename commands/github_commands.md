@@ -24,12 +24,12 @@ git rm -r --cached .
 git add .
 git commit -m ".gitignore is now working"
 ```
-## clean up remote branches
+## Clean up remote branches
 ```java
 git fetch --all --prune
 ```
 
-## revert back to certain commit
+## Revert back to certain commit
 ```java
 git reset 56e05fced 
 
@@ -40,6 +40,11 @@ git commit -m "Revert to 56e05fced"
 
 ## Updates working copy to reflect the new commit
 git reset --hard
+```
+
+## Remove N last commits
+```java
+git reset --hard HEAD~N
 ```
 
 ## Move repo A to B

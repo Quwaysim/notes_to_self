@@ -1,11 +1,11 @@
-### Update default editor:
+## Update default editor:
 
 ```java
 git config --global core.editor emacs
 git config --global core.editor /usr/local/bin/emacs
 ```
 
-### See staged for commit changes
+## See staged for commit changes
 ```java
 git diff --cached origin/master
 ```
@@ -18,31 +18,31 @@ git against head
 ```java
 git push origin HEAD:chore/collaborators_view --force
 ```
-### Apply .gitignore to project
+## Apply .gitignore to project
 ```java
 git rm -r --cached .
 git add .
 git commit -m ".gitignore is now working"
 ```
-### clean up remote branches
+## clean up remote branches
 ```java
 git fetch --all --prune
 ```
 
-### revert back to certain commit
+## revert back to certain commit
 ```java
 git reset 56e05fced 
 
-# Moves pointer back to previous HEAD
+## Moves pointer back to previous HEAD
 git reset --soft HEAD@{1}
 
 git commit -m "Revert to 56e05fced"
 
-# Updates working copy to reflect the new commit
+## Updates working copy to reflect the new commit
 git reset --hard
 ```
 
-### Move repo A to B
+## Move repo A to B
 ```java
 cd B
 git checkout master
@@ -51,4 +51,29 @@ git fetch A
 git merge A/master --allow-unrelated-histories
 git push origin HEAD
 git remote rm A
+```
+
+## Undo Rebase
+```java
+git reflog // find where rebase: ends
+git reset --hard HEAD@{N}
+```
+
+## Squash N Commits locally
+git reset --soft HEAD~N &&
+git commit
+
+## Reset to Rebase
+```java
+g checkout development
+g log // copy latest SHA
+g checkout foo
+g reset -q --soft (latest SHA)
+g stash
+g checkout development
+g checkout -b bar
+g stash pop
+g commit -m “added feature”
+g push origin HEAD
+
 ```

@@ -56,7 +56,7 @@
 - [Fragments?](https://academy.realm.io/posts/michael-yotive-state-of-fragments-2017/)
 
 ## MV*
-- [MVI](https://jakewharton.com/the-state-of-managing-state-with-rxjava/): Managing State with RxJava, [Repo](https://github.com/wraitho/RxState)
+- [MVI](https://jakewharton.com/the-state-of-managing-state-with-rxjava/): Managing State with RxJava, [Repo](https://github.com/wraitho/RxState), [Repo #2](https://github.com/kanawish/android-mvi-sample)
 - [MVI Boilerplate](https://github.com/bufferapp/android-clean-architecture-mvi-boilerplate)
 - [Theatre MVVM](https://github.com/andremion/Theatre)
 - [MVC/MVVM/MVP](https://academy.realm.io/posts/eric-maxwell-mvc-mvp-and-mvvm-on-android/)

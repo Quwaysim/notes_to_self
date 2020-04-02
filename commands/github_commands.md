@@ -60,8 +60,10 @@ git reset --hard HEAD@{N}
 ```
 
 ## Squash N Commits locally
+```java
 git reset --soft HEAD~N &&
 git commit
+```
 
 ## Reset to Rebase
 ```java

@@ -43,12 +43,15 @@
 
 - Frameworks:
   - [MvRx](https://github.com/airbnb/MvRx)
+  - [Mobius](https://github.com/spotify/mobius)
   - [Mortar](https://github.com/square/mortar)
   - [Presenta](https://github.com/techery/presenta): Mortar & flow together
   - [Scoop](https://github.com/lyft/scoop)
   - [TornadoFX](https://github.com/edvin/tornadofx)
   - [Roid Library](https://github.com/RincLiu/Roid-Library)
   - [Orbit MVI](https://github.com/babylonhealth/orbit-mvi)
+  - [MVICore](https://github.com/badoo/MVICore)
+  - [RxRedux](https://github.com/freeletics/RxRedux)
 
 - Helpers:
   - [Butterknife](https://github.com/JakeWharton/butterknife): View Binding made easy

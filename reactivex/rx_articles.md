@@ -12,6 +12,8 @@
 
 - [Compose](https://blog.danlew.net/2015/03/02/dont-break-the-chain/)
 
+- [Subjects](https://proandroiddev.com/rxjava-different-types-of-subjects-ef9183b5e87e)
+
 App Wide Loading Spinner
 ```
 val networkDisposable = api.getUsers()

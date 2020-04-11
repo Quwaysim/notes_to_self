@@ -15,9 +15,10 @@
 App Wide Loading Spinner
 ```
 val networkDisposable = api.getUsers()
-							.subscribeOn(io)
-													.observeOn(main)
-															    .subscribe { users-> ...}
+                           .subscribeOn(io)
+			   .observeOn(main)
+			   .subscribe { users-> ...}
+
 val loadingSpinner = CompositeDisposable()
 loadingSpinner.add(network)
 

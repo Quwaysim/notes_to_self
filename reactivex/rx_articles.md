@@ -10,6 +10,8 @@
 
 - [Event Bus](https://medium.com/@FerRaviola/rxandroid-an-event-bus-on-steroids-9699e93eca98)
 
+- [Compose](https://blog.danlew.net/2015/03/02/dont-break-the-chain/)
+
 App Wide Loading Spinner
 ```
 val networkDisposable = api.getUsers()

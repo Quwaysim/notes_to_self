@@ -125,6 +125,7 @@
   - [RxAndroid](https://github.com/ReactiveX/RxAndroid) ✅
   - [RxBinding](https://github.com/JakeWharton/RxBinding) ✅
   - [RxJava2Extensions](https://github.com/akarnokd/RxJava2Extensions)
+  - [RxKotlin](https://github.com/ReactiveX/RxKotlin) ✅
 
 - Security:
   - [Conceal]( https://github.com/facebook/conceal): Encrypt files quick

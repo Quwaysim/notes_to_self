@@ -8,6 +8,7 @@
 - [Support Library Revision Archive](https://developer.android.com/topic/libraries/support-library/rev-archive#rev23-4-0)
 - [Support Libraries #2](https://developer.android.com/topic/libraries/support-library/packages)
 - [Android Support Revisions](https://developer.android.com/topic/libraries/support-library/revisions.html)
+- [Android Tips & Tricks](https://github.com/nisrulz/android-tips-tricks)
 
 ## Learning Resources
 - [Google Tutorials](https://codelabs.developers.google.com)

@@ -21,6 +21,9 @@
 - Add Coding Style
   - Move the coding style file to `~/Library/Preferences/AndroidStudio[version]/codestyles`
   - Android Studio->`Preferences`->`Editor`->`Code Style`, apply style
+  
+- Remove module still showing up
+  - `[project]/.idea/gradle.xml` -- remove a module & related files from here.
 
 ### SVG <=> PNG Converter
 

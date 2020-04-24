@@ -188,7 +188,10 @@
   - [RxSwift](https://github.com/ReactiveX/RxSwift) ✅ 
   - [RxGesture](https://github.com/RxSwiftCommunity/RxGesture): Rx UIView events
   - [RxSwiftExt](https://github.com/RxSwiftCommunity/RxSwiftExt): Rx Extensions + operators
+  - [RxAppState](https://github.com/pixeldock/RxAppState): UIApplicationDelegate methods to observe changes in your app's state
+  - [RxDataSources](https://github.com/RxSwiftCommunity/RxDataSources): UITableView and UICollectionView Data Sources 
   - [Action](https://github.com/RxSwiftCommunity/Action): Abstracts actions to be performed in RxSwift.
+  - [RxSwiftCommunity](https://github.com/RxSwiftCommunity): RxSwift ecosystem projects
 
 - Security:
   - [CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift)

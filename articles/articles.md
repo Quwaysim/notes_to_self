@@ -171,9 +171,6 @@
 
 - [Geek Interview](http://www.geekinterview.com/)
 
-## Conferences
-- [Jake on Conferences](https://jakewharton.com/the-conference-speaker-investment/)
-
 ## After Effects
 
 [Tutorials](https://www.videocopilot.net)

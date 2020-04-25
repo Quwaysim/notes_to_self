@@ -99,11 +99,6 @@
 ## Java
 [Jackson](http://www.mkyong.com/java/how-to-convert-java-object-to-from-json-jackson/)
 
-## Kotlin:
-[Try Kotlin](https://try.kotlinlang.org/#/Kotlin%20Koans/Introduction/Hello,%20world!/Task.kt)
-
-[CoRoutines](https://blog.mindorks.com/what-are-coroutines-in-kotlin-bf4fecd476e9)
-
 ## Bitcoin:
 - [Reddit Crypto Tips](https://www.reddit.com/r/CryptoCurrency/comments/7pgh7u/ive_made_over_500k_in_crypto_here_are_some_good/)
 

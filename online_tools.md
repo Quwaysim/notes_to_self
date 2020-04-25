@@ -23,6 +23,9 @@ https://meyerweb.com/eric/tools/dencoder/
 
  - [Formatter](https://jsonformatter.curiousconcept.com)
  - [QuickType](https://app.quicktype.io): Json -> Language Parse Logic
+ 
+## Kotlin
+ - [Kotlin Playground](https://play.kotlinlang.org)
 
 ## Valid Credit Card Numbers for Testing
 
@@ -91,7 +94,7 @@ https://www.calligraphr.com/en/
 https://www.bearaudiotool.com/mp3-to-midi
 
 ## Arabic Conjugator
-http://acon.baykal.be/index.php?r3=ب&r2=ت&r1=ك&type=I&pvowel=a&ivowel=i&display=western
+[Arabic Conjugator](http://acon.baykal.be/index.php?r3=ب&r2=ت&r1=ك&type=I&pvowel=a&ivowel=i&display=western)
 
 ## Background Sounds
 

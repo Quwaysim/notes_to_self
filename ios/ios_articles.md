@@ -54,6 +54,7 @@
 - [Protocol oriented programming](https://medium.com/ios-os-x-development/protocol-oriented-programming-in-swift-daba92bc9c98)
 - [Raywenderlich's Swift Style Guide](https://github.com/raywenderlich/swift-style-guide)
 - [Swift Cookbook](https://github.com/melling/SwiftCookBook)
+- [Pixeldock Blog/](https://www.pixeldock.com/blog/)
 
 ## SwiftUI
 - [Movie App Redux](https://github.com/Dimillian/MovieSwiftUI)

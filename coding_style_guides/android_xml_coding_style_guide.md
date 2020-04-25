@@ -264,3 +264,4 @@ __GOOD:__
 - Only create view ids under following circumstances:
   - When referenced from Java/Kotlin code.
   - When needing to place a constraint against another View that's yet defined.
+  - When giving an outer layout's root view group an id to help with view debugging.

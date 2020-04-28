@@ -82,6 +82,7 @@
 - Kotlin:
   - [Kotlin-DSL](https://github.com/gradle/kotlin-dsl)
   - [Coroutines](https://github.com/Kotlin/kotlinx.coroutines)
+  - [Kovenant](http://kovenant.komponents.nl): Promises for Kotlin
 
 - Leak Detection:
   - [Leak Canary](https://github.com/square/leakcanary) ✅

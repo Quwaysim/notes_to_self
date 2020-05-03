@@ -50,8 +50,12 @@
   - [TornadoFX](https://github.com/edvin/tornadofx)
   - [Roid Library](https://github.com/RincLiu/Roid-Library)
   - [Orbit MVI](https://github.com/babylonhealth/orbit-mvi)
-  - [MVICore](https://github.com/badoo/MVICore)
-  - [RxRedux](https://github.com/freeletics/RxRedux)
+  - [MVICore](https://github.com/badoo/MVICore): MVI framework with events.
+  - [RxRedux](https://github.com/freeletics/RxRedux): Redux implementation based on RxJava
+  - [Kotlin Flows](https://kotlinlang.org/docs/reference/coroutines/flow.html)
+  - [Workflow](https://square.github.io/workflow/): UI driven by composable state machines
+  - [Uniflow](https://github.com/uniflow-kt/uniflow-kt): Simple Unidirectionnel Data Flow for Android & Kotlin, using Kotlin coroutines and open to functional programming.
+
 
 - Helpers:
   - [Butterknife](https://github.com/JakeWharton/butterknife): View Binding made easy

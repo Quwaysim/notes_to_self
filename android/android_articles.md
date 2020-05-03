@@ -1,6 +1,7 @@
 ## General:
 - [Build Variants](https://developer.android.com/studio/build/build-variants)
 - [Build Variables](https://developer.android.com/studio/build/manifest-build-variables)
+- [UI Databinding Antipattern](https://quinngil.com/2019/01/29/antipattern-ui-databinding/)
 - [App Quality Checklist](https://developer.android.com/docs/quality-guidelines/core-app-quality#sc)
 - [Security Checklist](https://developer.android.com/training/best-security.html)
 - [OS Distribution dashboard](https://developer.android.com/about/dashboards/)
@@ -59,7 +60,6 @@
 
 ## MV*
 - [MVI](https://jakewharton.com/the-state-of-managing-state-with-rxjava/): Managing State with RxJava, [Repo](https://github.com/wraitho/RxState), [Repo #2](https://github.com/kanawish/android-mvi-sample), [Repo #3](https://github.com/bufferapp/android-clean-architecture-mvi-boilerplate)
-- [RxRedux](https://github.com/freeletics/RxRedux)
 - [Theatre MVVM](https://github.com/andremion/Theatre)
 - [MVC/MVVM/MVP](https://academy.realm.io/posts/eric-maxwell-mvc-mvp-and-mvvm-on-android/)
 - [Android Architecture](https://github.com/googlesamples/android-architecture)

@@ -4,6 +4,10 @@
 - [App Store Listings Dimensions](https://help.apple.com/app-store-connect/#/devd274dd925)
 - [Phone/OS Support](https://support.apple.com/en-gb/guide/iphone/iphe3fa5df43/ios)
 
+## Bloggers
+- [Nishant Sharma](https://medium.com/@nishantnitb)
+- [PixelDock](https://www.pixeldock.com/blog/category/ios/)
+
 ## Learning Resources
 - [Paul Hudson](https://www.hackingwithswift.com/quick-start/swiftui): Swift UI
 - [WWDC SwiftUI](https://www.youtube.com/watch?v=aH7oWxfxpJY)

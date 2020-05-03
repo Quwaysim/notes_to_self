@@ -29,6 +29,7 @@
 
 ## Animation
 - [Fragment Transitions](https://chris.banes.dev/2018/02/18/fragmented-transitions/)
+- [Animation Samples](https://github.com/android/animation-samples)
 
 ## Bottom Sheet
 - https://github.com/firatkarababa/BottomAppBarBehaviour
@@ -66,6 +67,8 @@
 - [Buddy Search](https://github.com/ihorvitruk/buddysearch): MVP
 - [RxAndroid Retrofit](https://github.com/WeRockStar/RxAndroid-Retrofit): RxJava, RxAndroid, Retrofit 2, Mockito + Travis CI
 - [RxJava Samples](https://github.com/kaushikgopal/RxJava-Android-Samples)
+- [MVVM  + RB](https://tech.olx.com/mvvm-rb-adapting-the-mvvm-pattern-at-olx-81701c2825b6)
+- [Android Plaid App](https://github.com/android/plaid)
 
 ## Object Box
 - [Relations](https://docs.objectbox.io/relations#updating-toone)

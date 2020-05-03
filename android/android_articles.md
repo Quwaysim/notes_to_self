@@ -115,6 +115,8 @@
 - [Some Themes](https://gist.githubusercontent.com/AndreiD/d4de1a5162b0fb33eb2f/raw/91f60a8cd3de1b0c110810bcf27419a11dfdae4f/color_schemes_android)
 - [Styling](https://stackoverflow.com/questions/3241729/android-dynamically-change-style-at-runtime)
 - [EditText Styling](https://www.ekchang.com/tutorial/2018/03/25/styling_textinputlayout.html)
+- [AppCompat to Material Guide](https://medium.com/androiddevelopers/migrating-to-material-components-for-android-ec6757795351)
+- [Material Theme Builder](https://github.com/material-components/material-components-android-examples)
 
 ## Gradle 
 - [Gradle Books](https://gradle.org/books/)

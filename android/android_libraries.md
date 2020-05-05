@@ -93,6 +93,7 @@
 
 - Logger:
   - [Pretty Logger](https://github.com/orhanobut/logger) ✅
+  - [Timber](https://github.com/JakeWharton/timber)
 
 - Navigation:
   - [Simple Stack](https://github.com/Zhuinden/simple-stack)

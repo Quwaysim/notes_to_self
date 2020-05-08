@@ -3,6 +3,7 @@
 - [Dropdowns Should be the UI of Last Resort](https://www.lukew.com/ff/entry.asp?1950)
 - [Space in design systems](https://medium.com/eightshapes-llc/space-in-design-systems-188bcbae0d62)
 - [Setup colors for app](https://azharanwar.com/?p=233)
+- [Boost Mobile UX with UX Design Principles](https://uxplanet.org/boost-mobile-ux-with-ux-design-principles-and-best-practices-a1e492ab6ff3)
 
 ## Academic
 - [Personas](http://www.infotoday.com/Online/jul03/head.shtml)

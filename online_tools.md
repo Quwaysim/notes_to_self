@@ -17,7 +17,7 @@
 
 ## URL Decoder/Encoder
 
-https://meyerweb.com/eric/tools/dencoder/
+- [Meyerweb](https://meyerweb.com/eric/tools/dencoder/)
 
 ## JSON
 
@@ -29,19 +29,19 @@ https://meyerweb.com/eric/tools/dencoder/
 
 ## Valid Credit Card Numbers for Testing
 
-http://www.getcreditcardnumbers.com
+- [GetCreditCardNumbers](http://www.getcreditcardnumbers.com)
 
 ## Colors
 
-- https://color.adobe.com/explore/?filter=most-popular&time=month
+- [Adobe Color](https://color.adobe.com/explore/?filter=most-popular&time=month)
 
-- https://material.io/collections/color/#
+- [Material Color Tool](https://material.io/resources/color/)
 
-- https://www.materialpalette.com
+- [Material Palette](https://www.materialpalette.com)
 
-- https://www.colorbox.io
+- [ColorBox](https://www.colorbox.io)
 
-- https://coolors.co/
+- [Coolors]https://coolors.co/)
 
 ## Creative Resources
 
@@ -83,7 +83,7 @@ http://www.getcreditcardnumbers.com
 
 ## Fonts
 
-https://www.calligraphr.com/en/
+- [Calligraphr](https://www.calligraphr.com/en/)
 
 ## UI Patterns
 
@@ -91,14 +91,14 @@ https://www.calligraphr.com/en/
 - [Pttrns](https://www.pttrns.com/?scid=38): More mobile ui patterns
 
 ## Mp3 to MIDI
-https://www.bearaudiotool.com/mp3-to-midi
+- [BearAudioTool](https://www.bearaudiotool.com/mp3-to-midi)
 
 ## Arabic Conjugator
-[Arabic Conjugator](http://acon.baykal.be/index.php?r3=ب&r2=ت&r1=ك&type=I&pvowel=a&ivowel=i&display=western)
+- [Arabic Conjugator](http://acon.baykal.be/index.php?r3=ب&r2=ت&r1=ك&type=I&pvowel=a&ivowel=i&display=western)
 
 ## Background Sounds
 
-[A Soft Murmur](https://asoftmurmur.com)
+- [A Soft Murmur](https://asoftmurmur.com)
 
 ## ASCII Converter
 
@@ -108,16 +108,16 @@ https://www.bearaudiotool.com/mp3-to-midi
 
 ## Type faster
 
-[Type Racer](https://play.typeracer.com)
+- [Type Racer](https://play.typeracer.com)
 
 ## Emoji
 
-[Emoji's Unicode](https://apps.timwhitlock.info/emoji/tables/unicode#note1)
+- [Emoji's Unicode](https://apps.timwhitlock.info/emoji/tables/unicode#note1)
 
 ## Alternatives to Google
 
-[No More Google!](https://nomoregoogle.com/)
+- [No More Google!](https://nomoregoogle.com/)
 
 ## Video Download
 
-[RipSave](https://ripsave.com)
+- [RipSave](https://ripsave.com)

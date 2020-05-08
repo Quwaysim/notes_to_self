@@ -93,6 +93,9 @@
 - Leak Detection:
   - [Leak Canary](https://github.com/square/leakcanary) ✅
 
+- Lint:
+  - [Pinterest Klint](https://github.com/pinterest/ktlint)
+
 - Logger:
   - [Pretty Logger](https://github.com/orhanobut/logger) ✅
   - [Timber](https://github.com/JakeWharton/timber)
@@ -189,6 +192,9 @@
   - [Battery Meter View](https://github.com/eo/battery-meter-view) ✅
   - [Signal Strength View](https://github.com/eo/signal-strength-view) ✅
   - [Bottom Sheet Recycler](https://github.com/fedorenkoalex/bottomsheetrecycler)
+  
+- ViewGroups
+  - [Flexbox Layout](https://github.com/google/flexbox-layout)
 
 - Utilities:
   - [Android Util Code](https://github.com/Blankj/AndroidUtilCode): A ton of utility helper functions.

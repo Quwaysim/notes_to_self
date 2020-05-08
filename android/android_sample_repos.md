@@ -12,7 +12,9 @@
 - [Buddy Search](https://github.com/ihorvitruk/buddysearch): MVP
 
 ## Apps
-- [Android Plaid App](https://github.com/android/plaid)
+- [Plaid](https://github.com/android/plaid)
+- [Sunflower](https://github.com/android/sunflower)
+- [Java-Time](https://github.com/Vichy97/Java-Time)
 
 ## BottomBar
 - [BottomAppBarBehaviour](https://github.com/firatkarababa/BottomAppBarBehaviour)

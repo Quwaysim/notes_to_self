@@ -9,9 +9,9 @@
 - [CS160](http://inst.eecs.berkeley.edu/%7Ecs160/fa07/slides/midterm.html)
 - [Contextual Design](https://en.wikipedia.org/wiki/Contextual_design)
 - [Personas](http://www.infotoday.com/Online/jul03/head.shtml)
-- https://asktog.com/atc/principles-of-interaction-design/
-- https://dl.acm.org/citation.cfm?id=560143
-- https://link.springer.com/article/10.1007%2Fs00779-003-0238-7
+- [First Principles of Interaction Design](https://asktog.com/atc/principles-of-interaction-design/)
+- [Interaction Design](https://dl.acm.org/citation.cfm?id=560143)
+- [Understanding contexts by being there](https://link.springer.com/article/10.1007%2Fs00779-003-0238-7)
 - [Setup colors for app](https://azharanwar.com/?p=233)
 
 

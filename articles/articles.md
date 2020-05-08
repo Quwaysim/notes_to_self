@@ -1,3 +1,6 @@
+## After Effects
+- [Tutorials](https://www.videocopilot.net)
+
 ## Learning:
 - [Learn Y in X](https://learnxinyminutes.com/docs/kotlin/)
 
@@ -47,20 +50,6 @@
 
 ## Blogs:
 - [Uncle Bob](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
-
-- [Android Dude](https://fernandocejas.com)
-
-- [Android Dude#2](http://saulmm.github.io)
-
-- [Android Dude#3](https://trickyandroid.com/)
-
-- [Android Dude#4](https://medium.com/@jinatonic)
-
-- [Android Dude#5](http://zhuinden.github.io)
-
-- [Android Dude#6](https://medium.com/@ahmedrizwan)
-
-- [Design Dude](http://littlebigdetails.com)
 
 - [On $ites Online](https://www.owntheweb.net)
 
@@ -178,7 +167,3 @@
 - [Java Design Patterns](https://github.com/iluwatar/java-design-patterns)
 
 - [Interviews](https://github.com/kdn251/interviews)
-
-## After Effects
-
-[Tutorials](https://www.videocopilot.net)

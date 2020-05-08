@@ -135,6 +135,7 @@
 
 - Logger:
   - [Swifty Beaver](https://github.com/SwiftyBeaver/SwiftyBeaver) ✅ 
+  - [Pulse](https://github.com/kean/Pulse)
 
 - Messaging:
   - [Message Kit](https://github.com/MessageKit/MessageKit)

@@ -6,7 +6,6 @@
 
 ## Animation
 - [Fragment Transitions](https://chris.banes.dev/2018/02/18/fragmented-transitions/)
-- [Animation Samples](https://github.com/android/animation-samples)
 
 ## Blogs
 - [fernandocejas](https://fernandocejas.com)
@@ -36,7 +35,6 @@
 
 ## Learning Resources
 - [Google Tutorials](https://codelabs.developers.google.com)
-- [Google Architecture](https://github.com/googlesamples/android-architecture/tree/todo-mvp-clean/)
 - [Android Guides](https://github.com/codepath/android_guides): Open-Source Guides
 - [Android for iOS Devs](https://akos.ma/books/Android_for_iOS_Devs/Android_for_iOS_Devs_Kotlin_Ed_2018.html)
 - [Android Cliffnotes](https://github.com/codepath/android_guides/wiki#getting-started)
@@ -48,8 +46,6 @@
 - [Android Cheat Sheet](https://github.com/anitaa1990/Android-Cheat-sheet)
 
 ## Bottom Sheet
-- https://github.com/firatkarababa/BottomAppBarBehaviour
-- https://github.com/firatkarababa/BottomAppBar
 - https://medium.com/material-design-in-action/implementing-bottomappbar-behavior-fbfbc3a30568
 - https://medium.com/material-design-in-action/implementing-bottomappbar-material-components-for-android-f490c4a01708
 - https://duckduckgo.com/?q=android+bottom+app+bar+The+style+on+this+component+requires+your+app+theme+to+be+Theme.MaterialComponents&t=osx&ia=web
@@ -64,7 +60,6 @@
 ## Views
 - [Date Picker](http://www.mkyong.com/android/android-date-picker-example/)
 - [Emoji Android](https://developer.android.com/guide/topics/ui/look-and-feel/emoji-compat#kotlin)
-- [Searchable RecyclerView](https://github.com/Wrdlbrnft/Searchable-RecyclerView-Demo)
 - [ProgressBar on Toolbar](https://www.zidsworld.com/android-development/how-to-set-a-progress-bar-on-toolbar-actionbar-in-android-java/)
 - [Finger Print](https://www.androidauthority.com/how-to-add-fingerprint-authentication-to-your-android-app-747304/)
 
@@ -76,15 +71,10 @@
 - [Fragments?](https://academy.realm.io/posts/michael-yotive-state-of-fragments-2017/)
 
 ## MV*
-- [MVI](https://jakewharton.com/the-state-of-managing-state-with-rxjava/): Managing State with RxJava, [Repo](https://github.com/wraitho/RxState), [Repo #2](https://github.com/kanawish/android-mvi-sample), [Repo #3](https://github.com/bufferapp/android-clean-architecture-mvi-boilerplate)
-- [Theatre MVVM](https://github.com/andremion/Theatre)
+- [MVI](https://jakewharton.com/the-state-of-managing-state-with-rxjava/): Managing State with RxJava
 - [MVC/MVVM/MVP](https://academy.realm.io/posts/eric-maxwell-mvc-mvp-and-mvvm-on-android/)
 - [Android Architecture](https://github.com/googlesamples/android-architecture)
-- [Buddy Search](https://github.com/ihorvitruk/buddysearch): MVP
-- [RxAndroid Retrofit](https://github.com/WeRockStar/RxAndroid-Retrofit): RxJava, RxAndroid, Retrofit 2, Mockito + Travis CI
-- [RxJava Samples](https://github.com/kaushikgopal/RxJava-Android-Samples)
-- [MVVM  + RB](https://tech.olx.com/mvvm-rb-adapting-the-mvvm-pattern-at-olx-81701c2825b6)
-- [Android Plaid App](https://github.com/android/plaid)
+- [MVVM + RB](https://tech.olx.com/mvvm-rb-adapting-the-mvvm-pattern-at-olx-81701c2825b6)
 
 ## Object Box
 - [Relations](https://docs.objectbox.io/relations#updating-toone)
@@ -106,7 +96,6 @@
 
 ## Rx
 - [Rx Click Recycler](https://stackoverflow.com/questions/44433115/recyclerview-item-click-using-rxjava2-rxbinding-not-working-after-fragment-rep/44840296)
-- [RxJava Android Samples](https://github.com/kaushikgopal/RxJava-Android-Samples)
 
 ## Koin
 - [Exploring Koin in Android and Kotlin](http://mobologicplus.com/exploring-koin-dependency-injection-in-android-and-kotlin/)
@@ -114,8 +103,8 @@
 ## Kotlin
 - [Android w/ Kotlin](https://www.youtube.com/watch?v=A2LukgT2mKc&feature=youtu.be)
 
-## Testing
-- [Espresso](https://proandroiddev.com/testing-android-ui-with-pleasure-e7d795308821)
+## Parsing
+- [Univocity Parsers](https://www.univocity.com/pages/univocity_parsers_tutorial)
 
 ## Publishing Libraries
 - [Publish Library to Maven](https://medium.com/@jinatonic/publishing-android-libraries-to-maven-f91947c3e77b)
@@ -129,7 +118,7 @@
 - [Styling](https://stackoverflow.com/questions/3241729/android-dynamically-change-style-at-runtime)
 - [EditText Styling](https://www.ekchang.com/tutorial/2018/03/25/styling_textinputlayout.html)
 - [AppCompat to Material Guide](https://medium.com/androiddevelopers/migrating-to-material-components-for-android-ec6757795351)
-- [Material Theme Builder](https://github.com/material-components/material-components-android-examples)
 
-## Parsing
-- [Univocity Parsers](https://www.univocity.com/pages/univocity_parsers_tutorial)
+## Testing
+- [Espresso](https://proandroiddev.com/testing-android-ui-with-pleasure-e7d795308821)
+

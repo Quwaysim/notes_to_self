@@ -173,6 +173,12 @@
 
 - [CodeSignal](https://app.codesignal.com/)
 
+- [Algorithms](https://github.com/williamfiset/Algorithms)
+
+- [Java Design Patterns](https://github.com/iluwatar/java-design-patterns)
+
+- [Interviews](https://github.com/kdn251/interviews)
+
 ## After Effects
 
 [Tutorials](https://www.videocopilot.net)

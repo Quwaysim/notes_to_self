@@ -47,9 +47,8 @@
 - [Android Cheat Sheet](https://github.com/anitaa1990/Android-Cheat-sheet)
 
 ## Bottom Sheet
-- https://medium.com/material-design-in-action/implementing-bottomappbar-behavior-fbfbc3a30568
-- https://medium.com/material-design-in-action/implementing-bottomappbar-material-components-for-android-f490c4a01708
-- https://duckduckgo.com/?q=android+bottom+app+bar+The+style+on+this+component+requires+your+app+theme+to+be+Theme.MaterialComponents&t=osx&ia=web
+- [BottomAppBar Behavior](https://medium.com/material-design-in-action/implementing-bottomappbar-behavior-fbfbc3a30568)
+- [BottomAppBar](https://medium.com/material-design-in-action/implementing-bottomappbar-material-components-for-android-f490c4a01708)
 
 ## Databases
 - [CouchBase](https://www.raywenderlich.com/853-couchbase-tutorial-for-android-getting-started)

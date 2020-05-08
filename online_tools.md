@@ -41,7 +41,7 @@
 
 - [ColorBox](https://www.colorbox.io)
 
-- [Coolors]https://coolors.co/)
+- [Coolors](https://coolors.co/)
 
 ## Creative Resources
 

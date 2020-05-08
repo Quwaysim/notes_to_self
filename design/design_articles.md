@@ -18,6 +18,9 @@
 - [Contextual Design](https://en.wikipedia.org/wiki/Contextual_design)
 - [Understanding contexts by being there](https://link.springer.com/article/10.1007%2Fs00779-003-0238-7)
 
+## Blogs
+- [Little Big Details](http://littlebigdetails.com)
+
 ## Learning Resources
 - [LearnUX](https://learnux.io/signup)
 

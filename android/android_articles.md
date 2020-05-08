@@ -8,6 +8,14 @@
 - [Fragment Transitions](https://chris.banes.dev/2018/02/18/fragmented-transitions/)
 - [Animation Samples](https://github.com/android/animation-samples)
 
+## Blogs
+- [fernandocejas](https://fernandocejas.com)
+- [saulmm](http://saulmm.github.io)
+- [trickyandroid](https://trickyandroid.com/)
+- [jinatonic](https://medium.com/@jinatonic)
+- [zhuinden](http://zhuinden.github.io)
+- [ahmedrizwan](https://medium.com/@ahmedrizwan)
+
 ## Build
 - [Kotlin + buildSrc](https://handstandsam.com/2018/02/11/kotlin-buildsrc-for-better-gradle-dependency-management/)
 - [Build Variants](https://developer.android.com/studio/build/build-variants)

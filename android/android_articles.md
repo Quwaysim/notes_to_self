@@ -14,6 +14,7 @@
 - [jinatonic](https://medium.com/@jinatonic)
 - [zhuinden](http://zhuinden.github.io)
 - [ahmedrizwan](https://medium.com/@ahmedrizwan)
+- [chrisbanes](https://medium.com/@chrisbanes)
 
 ## Build
 - [Kotlin + buildSrc](https://handstandsam.com/2018/02/11/kotlin-buildsrc-for-better-gradle-dependency-management/)
@@ -118,6 +119,7 @@
 - [Styling](https://stackoverflow.com/questions/3241729/android-dynamically-change-style-at-runtime)
 - [EditText Styling](https://www.ekchang.com/tutorial/2018/03/25/styling_textinputlayout.html)
 - [AppCompat to Material Guide](https://medium.com/androiddevelopers/migrating-to-material-components-for-android-ec6757795351)
+- [DayNight Theming](https://medium.com/androiddevelopers/appcompat-v23-2-daynight-d10f90c83e94)
 
 ## Testing
 - [Espresso](https://proandroiddev.com/testing-android-ui-with-pleasure-e7d795308821)

@@ -10,6 +10,7 @@
   - [Animated RecyclerViews](https://github.com/wasabeef/recyclerview-animators)
   - [Lottie](https://github.com/airbnb/lottie-android): Render After Effects animations natively 
   - [Fragment Animations](https://github.com/DesarrolloAntonio/FragmentTransactionExtended): List of fragment animations.
+  - [TransformationLayout](https://github.com/skydoves/TransformationLayout): Animate to different views or activities.
 
 - Audio:
   - [RxAudioRecord](https://github.com/ahmedrizwan/ReactiveAudioRecord)
@@ -78,6 +79,7 @@
 - Injection:
   - [Dagger](https://github.com/google/dagger)
   - [Koin](https://github.com/InsertKoinIO/koin) ✅
+  - [Kodein-DI](https://github.com/Kodein-Framework/Kodein-DI)
 
 - Java:
   - [Retrolambda](https://github.com/evant/gradle-retrolambda)

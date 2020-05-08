@@ -1,6 +1,21 @@
-## General:
+## Ads
+- [Ad Mob](https://www.youtube.com/watch?v=AzTFkpIj2L4)
+
+## Android Studio
+- [LogCat](https://stackoverflow.com/questions/39993867/android-studio-logcat-colors-best-practice/39993868)
+
+## Animation
+- [Fragment Transitions](https://chris.banes.dev/2018/02/18/fragmented-transitions/)
+- [Animation Samples](https://github.com/android/animation-samples)
+
+## Build
+- [Kotlin + buildSrc](https://handstandsam.com/2018/02/11/kotlin-buildsrc-for-better-gradle-dependency-management/)
 - [Build Variants](https://developer.android.com/studio/build/build-variants)
 - [Build Variables](https://developer.android.com/studio/build/manifest-build-variables)
+- [Gradle Books](https://gradle.org/books/)
+- [Gradle Versions](https://developer.android.com/studio/releases/gradle-plugin.html)
+
+## General:
 - [UI Databinding Antipattern](https://quinngil.com/2019/01/29/antipattern-ui-databinding/)
 - [App Quality Checklist](https://developer.android.com/docs/quality-guidelines/core-app-quality#sc)
 - [Security Checklist](https://developer.android.com/training/best-security.html)
@@ -23,13 +38,6 @@
 ## Interview Questions
 - [Babylon Health Playbook](https://github.com/babylonhealth/android-playbook)
 - [Android Cheat Sheet](https://github.com/anitaa1990/Android-Cheat-sheet)
-
-## Ads
-- [Ad Mob](https://www.youtube.com/watch?v=AzTFkpIj2L4)
-
-## Animation
-- [Fragment Transitions](https://chris.banes.dev/2018/02/18/fragmented-transitions/)
-- [Animation Samples](https://github.com/android/animation-samples)
 
 ## Bottom Sheet
 - https://github.com/firatkarababa/BottomAppBarBehaviour
@@ -105,22 +113,15 @@
 - [Publish Library to Maven](https://medium.com/@jinatonic/publishing-android-libraries-to-maven-f91947c3e77b)
 - [Publish Maven library](https://medium.com/@scottyab/how-to-publish-your-open-source-library-to-maven-central-5178d9579c5)
 
-## Android Studio
-- [LogCat](https://stackoverflow.com/questions/39993867/android-studio-logcat-colors-best-practice/39993868)
-
 ## Styling/Themes
 - [Android Attrs](https://chromium.googlesource.com/android_tools/+/25d57ead05d3dfef26e9c19b13ed10b0a69829cf/sdk/platforms/android-23/data/res/values/themes.xml)
 - [Awesome Theme Tutorial](https://medium.com/@joannekao/android-working-with-themes-and-styles-18cde717f4d)
-- [Material Theming](https://material.io/design/material-theming/#using-material-theming)
+- [Material Theming](https://material.io/design/color/the-color-system.html#color-theme-creation)
 - [Some Themes](https://gist.githubusercontent.com/AndreiD/d4de1a5162b0fb33eb2f/raw/91f60a8cd3de1b0c110810bcf27419a11dfdae4f/color_schemes_android)
 - [Styling](https://stackoverflow.com/questions/3241729/android-dynamically-change-style-at-runtime)
 - [EditText Styling](https://www.ekchang.com/tutorial/2018/03/25/styling_textinputlayout.html)
 - [AppCompat to Material Guide](https://medium.com/androiddevelopers/migrating-to-material-components-for-android-ec6757795351)
 - [Material Theme Builder](https://github.com/material-components/material-components-android-examples)
-
-## Gradle 
-- [Gradle Books](https://gradle.org/books/)
-- [Gradle Versions](https://developer.android.com/studio/releases/gradle-plugin.html)
 
 ## Parsing
 - [Univocity Parsers](https://www.univocity.com/pages/univocity_parsers_tutorial)

@@ -14,5 +14,5 @@ adb shell screenrecord /sdcard/video.mp4
 ```
 Type into emulator
 ```
-adb shell input text 'my string'
+adb shell input text 'username' && adb shell input keyevent 66 && adb shell input text 'password'
 ```

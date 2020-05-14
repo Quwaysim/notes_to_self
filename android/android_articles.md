@@ -111,9 +111,10 @@
 - [Publish Maven library](https://medium.com/@scottyab/how-to-publish-your-open-source-library-to-maven-central-5178d9579c5)
 
 ## Styling/Themes
+- [Developing Themes with Style](https://chris.banes.dev/talks/2019/developing-themes-with-style-berlin/)
+- [Material Theming](https://material.io/design/color/the-color-system.html#color-theme-creation)
 - [Android Attrs](https://chromium.googlesource.com/android_tools/+/25d57ead05d3dfef26e9c19b13ed10b0a69829cf/sdk/platforms/android-23/data/res/values/themes.xml)
 - [Awesome Theme Tutorial](https://medium.com/@joannekao/android-working-with-themes-and-styles-18cde717f4d)
-- [Material Theming](https://material.io/design/color/the-color-system.html#color-theme-creation)
 - [Some Themes](https://gist.githubusercontent.com/AndreiD/d4de1a5162b0fb33eb2f/raw/91f60a8cd3de1b0c110810bcf27419a11dfdae4f/color_schemes_android)
 - [Styling](https://stackoverflow.com/questions/3241729/android-dynamically-change-style-at-runtime)
 - [EditText Styling](https://www.ekchang.com/tutorial/2018/03/25/styling_textinputlayout.html)

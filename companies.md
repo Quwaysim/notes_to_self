@@ -27,6 +27,7 @@
 
 ## Fitness
 - [Peerfit](https://www.peerfit.com)
+- [Peloton](https://www.onepeloton.com)
 
 ## FinTech
 - [Stripe](http://stripe.com/)

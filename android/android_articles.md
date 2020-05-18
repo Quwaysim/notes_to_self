@@ -15,6 +15,7 @@
 - [zhuinden](http://zhuinden.github.io)
 - [ahmedrizwan](https://medium.com/@ahmedrizwan)
 - [chrisbanes](https://medium.com/@chrisbanes)
+- [Dan Lew Codes](http://blog.danlew.net)
 
 ## Build
 - [Kotlin + buildSrc](https://handstandsam.com/2018/02/11/kotlin-buildsrc-for-better-gradle-dependency-management/)
@@ -35,12 +36,12 @@
 - [Android Tips & Tricks](https://github.com/nisrulz/android-tips-tricks)
 
 ## Learning Resources
+- [Android Elements](https://www.androidelements.com)
 - [Google Tutorials](https://codelabs.developers.google.com)
 - [Android Guides](https://github.com/codepath/android_guides): Open-Source Guides
 - [Android for iOS Devs](https://akos.ma/books/Android_for_iOS_Devs/Android_for_iOS_Devs_Kotlin_Ed_2018.html)
 - [Android Cliffnotes](https://github.com/codepath/android_guides/wiki#getting-started)
 - [Android Podcasts/Blogs](https://github.com/codepath/android_guides/wiki/Keeping-Updated-with-Android)
-- [Dan Lew Codes](http://blog.danlew.net)
 
 ## Interview Questions
 - [Babylon Health Playbook](https://github.com/babylonhealth/android-playbook)

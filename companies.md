@@ -12,6 +12,12 @@
 - [PlanGrid](https://www.plangrid.com): remote friendly
 
 ## Consulting
+- [Best of Mobile](http://www.businessofapps.com/guide/app-development-companies/)
+- [Mobile Jazz](http://mobilejazz.com/): remote friendly
+- [BiTe](https://www.biteinteractive.com)
+- [Asynchrony Labs](https://www.asynchrony.com): remote friendly
+- [Rootstrap](https://www.rootstrap.com)
+- [Bottle Rocket Studios](https://www.bottlerocketstudios.com)
 - [YML](https://ymedialabs.com/x)
 - [HyperGiant](https://www.hypergiant.com/careers/)
 - [Grupa](https://grupa.io/howgrupaworks)
@@ -36,15 +42,6 @@
 
 ## NLP
 - [Lexy](https://angel.co/lexy-io/jobs)
-
-
-## Mobile
-- [Best of Mobile](http://www.businessofapps.com/guide/app-development-companies/)
-- [Mobile Jazz](http://mobilejazz.com/): remote friendly
-- [BiTe](https://www.biteinteractive.com)
-- [Asynchrony Labs](https://www.asynchrony.com): remote friendly
-- [Rootstrap](https://www.rootstrap.com)
-- [Bottle Rocket Studios](https://www.bottlerocketstudios.com)
 
 ## Mobile Phone
 - [Essential](http://essential.com/): remote friendly

@@ -43,9 +43,6 @@
 ## NLP
 - [Lexy](https://angel.co/lexy-io/jobs)
 
-## Mobile Phone
-- [Essential](http://essential.com/): remote friendly
-
 ## Recruiting Agencies
 - [Vettery](http://vettery.com/)
 - [Hired](http://hired.com/)

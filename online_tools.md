@@ -14,6 +14,7 @@
 - [SVG to PDF](https://cloudconvert.com/svg-to-pdf)
 - [QuickType](https://app.quicktype.io): Json -> Codable
 - [MakeAppIcon](https://makeappicon.com/): Generate iOS app icons
+- [IconGenerator](https://github.com/onmyway133/IconGenerator)
 
 ## URL Decoder/Encoder
 

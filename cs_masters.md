@@ -1,13 +1,11 @@
-http://hcil.umd.edu
+- [University of Maryland - HCI](http://hcil.umd.edu)
 
-http://bid.berkeley.edu
+- [Berkeley Institute of Design](http://bid.berkeley.edu)
 
-http://guyhaas.com/bfoit/
+- [The Berkeley Foundation for Opportunities in Information Technology](http://guyhaas.com/bfoit/)
 
-http://answers.google.com/answers/threadview?id=400802
+- [PhD programs in Human Compuer Interaction](http://answers.google.com/answers/threadview?id=400802)
 
-https://people.eecs.berkeley.edu/~jfc/recent.html
+- [Southern Methodist University](https://www.smu.edu/graduate)
 
-https://pantherfile.uwm.edu/johnchay/
-
-https://www.smu.edu/graduate
+- [ASU MCS](https://asuonline.asu.edu/online-degree-programs/graduate/computer-science-mcs)

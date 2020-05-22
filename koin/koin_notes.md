@@ -10,6 +10,7 @@ single<Box<Foo>>(named("foo")) {
 single<Box<Bar>>(named("bar")) {
     ObjectBox.get().boxFor(Bar::class.java)
 }
+
 single<BoxStore> {
     MyObjectBox.builder().androidContext(androidContext().applicationContext).build()
 }

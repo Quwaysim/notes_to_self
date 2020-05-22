@@ -10,10 +10,14 @@ single<Box<Foo>>(named("foo")) {
 single<Box<Bar>>(named("bar")) {
     ObjectBox.get().boxFor(Bar::class.java)
 }
+single<BoxStore> {
+    MyObjectBox.builder().androidContext(androidContext().applicationContext).build()
+}
 ```
 Usage:
 ```kotlin
 val fooBox: Box<Foo> by inject(named("foo"))
+val boxStore by inject<BoxStore>()
 ```
 
 ### Lazy vs Computed loading

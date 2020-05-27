@@ -137,6 +137,7 @@
   - [RxBinding](https://github.com/JakeWharton/RxBinding) ✅
   - [RxJava2Extensions](https://github.com/akarnokd/RxJava2Extensions)
   - [RxKotlin](https://github.com/ReactiveX/RxKotlin) ✅
+  - [RxDogTag](https://github.com/uber/RxDogTag): [Fixes error reporting.](https://stackoverflow.com/questions/57659583/how-to-get-better-rxjava-stacktraces-with-correct-crashlytics-error-grouping)
 
 - Security:
   - [Conceal]( https://github.com/facebook/conceal): Encrypt files quick

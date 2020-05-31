@@ -15,6 +15,8 @@
 - [Plaid](https://github.com/android/plaid)
 - [Sunflower](https://github.com/android/sunflower)
 - [Java-Time](https://github.com/Vichy97/Java-Time)
+- [Art Collector](https://github.com/ataulm/art-collector)
+- [Instant Weather](https://github.com/mayokunthefirst/Instant-Weather)
 
 ## BottomBar
 - [BottomAppBarBehaviour](https://github.com/firatkarababa/BottomAppBarBehaviour)
@@ -25,6 +27,7 @@
 
 ## Material
 - [Material Theme Builder](https://github.com/material-components/material-components-android-examples)
+- [Material Theme Showcase](https://github.com/ataulm/material-design-components-showcase)
 
 ## RecyclerView
 - [Searchable RecyclerView](https://github.com/Wrdlbrnft/Searchable-RecyclerView-Demo)

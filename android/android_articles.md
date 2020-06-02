@@ -18,6 +18,7 @@
 - [Dan Lew Codes](http://blog.danlew.net)
 - [Ataul](https://ataulm.com)
 - [Gabor Varadi](https://medium.com/@Zhuinden)
+- [Jaewoong Eum](https://medium.com/@skydoves)
 
 ## Build
 - [Kotlin + buildSrc](https://handstandsam.com/2018/02/11/kotlin-buildsrc-for-better-gradle-dependency-management/)

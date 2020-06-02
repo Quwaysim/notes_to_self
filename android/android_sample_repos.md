@@ -19,6 +19,7 @@
 - [Art Collector](https://github.com/ataulm/art-collector)
 - [Instant Weather](https://github.com/mayokunthefirst/Instant-Weather)
 - [Disney Motions](https://github.com/skydoves/disneymotions)
+- [Marvel Heroes](https://github.com/skydoves/MarvelHeroes)
 
 ## BottomBar
 - [BottomAppBarBehaviour](https://github.com/firatkarababa/BottomAppBarBehaviour)

@@ -18,6 +18,7 @@
 - [Java-Time](https://github.com/Vichy97/Java-Time)
 - [Art Collector](https://github.com/ataulm/art-collector)
 - [Instant Weather](https://github.com/mayokunthefirst/Instant-Weather)
+- [Disney Motions](https://github.com/skydoves/disneymotions)
 
 ## BottomBar
 - [BottomAppBarBehaviour](https://github.com/firatkarababa/BottomAppBarBehaviour)

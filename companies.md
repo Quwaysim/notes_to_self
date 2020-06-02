@@ -19,6 +19,7 @@
 - [BiTe](https://www.biteinteractive.com)
 - [Bottle Rocket Studios](https://www.bottlerocketstudios.com)
 - [Grupa](https://grupa.io/howgrupaworks)
+- [Wearehathway](https://wearehathway.com)
 - [HyperGiant](https://www.hypergiant.com/careers/)
 - [Mobile Jazz](http://mobilejazz.com/): remote friendly
 - [Reaktor](https://www.reaktor.com)

@@ -17,6 +17,7 @@
 - [chrisbanes](https://medium.com/@chrisbanes)
 - [Dan Lew Codes](http://blog.danlew.net)
 - [Ataul](https://ataulm.com)
+- [Gabor Varadi](https://medium.com/@Zhuinden)
 
 ## Build
 - [Kotlin + buildSrc](https://handstandsam.com/2018/02/11/kotlin-buildsrc-for-better-gradle-dependency-management/)
@@ -79,6 +80,7 @@
 - [MVC/MVVM/MVP](https://academy.realm.io/posts/eric-maxwell-mvc-mvp-and-mvvm-on-android/)
 - [Android Architecture](https://github.com/googlesamples/android-architecture)
 - [MVVM + RB](https://tech.olx.com/mvvm-rb-adapting-the-mvvm-pattern-at-olx-81701c2825b6)
+- [Comparison betwen them all](https://proandroiddev.com/mvc-mvp-mvvm-clean-viper-redux-mvi-prnsaaspfruicc-building-abstractions-for-the-sake-of-building-18459ab89386)
 
 ## Object Box
 - [Relations](https://docs.objectbox.io/relations#updating-toone)
@@ -113,6 +115,9 @@
 ## Publishing Libraries
 - [Publish Library to Maven](https://medium.com/@jinatonic/publishing-android-libraries-to-maven-f91947c3e77b)
 - [Publish Maven library](https://medium.com/@scottyab/how-to-publish-your-open-source-library-to-maven-central-5178d9579c5)
+
+## Navigation
+- [Inter-Module Navigation With Dagger](https://robinhood.engineering/android-inter-module-navigation-with-dagger-b808c4579067)
 
 ## Styling/Themes
 - [Developing Themes with Style](https://chris.banes.dev/talks/2019/developing-themes-with-style-berlin/)

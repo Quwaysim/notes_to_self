@@ -7,6 +7,7 @@
 - [Wraitho RxState](https://github.com/wraitho/RxState)
 - [Kanawish MVI](https://github.com/kanawish/android-mvi-sample)
 - [Bufferapp MVI](https://github.com/bufferapp/android-clean-architecture-mvi-boilerplate)
+- [Countries MVI](https://github.com/ywett02/CountriesMVI), [Related Article](https://proandroiddev.com/mvi-a-new-member-of-the-mv-band-6f7f0d23bc8a)
 - [Theatre MVVM](https://github.com/andremion/Theatre)
 - [RxAndroid Retrofit](https://github.com/WeRockStar/RxAndroid-Retrofit): RxJava, RxAndroid, Retrofit 2, Mockito + Travis CI
 - [Buddy Search](https://github.com/ihorvitruk/buddysearch): MVP

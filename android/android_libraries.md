@@ -20,6 +20,7 @@
 
 - Camera:
   - [Camera Kit](https://github.com/CameraKit/camerakit-android) ✅
+  - [Open Camera](https://github.com/almalence/OpenCamera)
 
 - Databases:
   - [Object Box](https://github.com/objectbox/objectbox-java), [DataBrowser](http://objectbox.io/objectbox-1-1-introduces-data-browser/) ✅

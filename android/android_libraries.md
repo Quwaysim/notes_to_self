@@ -163,10 +163,6 @@
 
 - Themes:
   - [Dynamic Themes](https://github.com/pranavpandey/dynamic-support)
-  
-- Template Repos
-  - [Cortinico](https://github.com/cortinico/kotlin-android-template)
-  - [Vichy97](https://github.com/Vichy97/Android-Template)
 
 - Transportation SDKs:
   - [Lyft](https://github.com/lyft/lyft-android-sdk)

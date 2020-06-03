@@ -11,7 +11,6 @@
 - [Theatre MVVM](https://github.com/andremion/Theatre)
 - [RxAndroid Retrofit](https://github.com/WeRockStar/RxAndroid-Retrofit): RxJava, RxAndroid, Retrofit 2, Mockito + Travis CI
 - [Buddy Search](https://github.com/ihorvitruk/buddysearch): MVP
-- [Cortinico Template](https://github.com/cortinico/kotlin-android-template)
 
 ## Apps
 - [Plaid](https://github.com/android/plaid)
@@ -38,3 +37,7 @@
 
 ## Rx
 - [RxJava Samples](https://github.com/kaushikgopal/RxJava-Android-Samples)
+
+## Templates:
+- [Vichy97](https://github.com/Vichy97/Android-Template)
+- [Cortinico Template](https://github.com/cortinico/kotlin-android-template)

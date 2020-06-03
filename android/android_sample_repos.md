@@ -38,6 +38,6 @@
 ## Rx
 - [RxJava Samples](https://github.com/kaushikgopal/RxJava-Android-Samples)
 
-## Templates:
+## Templates
 - [Vichy97](https://github.com/Vichy97/Android-Template)
 - [Cortinico Template](https://github.com/cortinico/kotlin-android-template)

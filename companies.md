@@ -49,6 +49,7 @@
 - [Lexy](https://angel.co/lexy-io/jobs)
 
 ## Recruiting Agencies
+- [6nomads](https://6nomads.com/)
 - [Vettery](http://vettery.com/)
 - [Hired](http://hired.com/)
 - [Venturi](https://www.venturi-group.com/us/)

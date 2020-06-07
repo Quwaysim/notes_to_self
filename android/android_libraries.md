@@ -120,9 +120,9 @@
   - [Parceler](https://github.com/johncarl81/parceler)
 
 - Parsers:
-  - [Moshi](https://github.com/square/moshi): JSON library for Kotlin and Java.
+  - [Moshi](https://github.com/square/moshi): JSON library for Kotlin and Java. ✅
   - [AutoParse JSON](https://github.com/Workday/autoparse-json)
-  - [Gson](https://github.com/google/gson) ✅
+  - [Gson](https://github.com/google/gson)
 
 - Preferences:
   - [Rx Preferences](https://github.com/f2prateek/rx-preferences): Rx Shared Preferences
